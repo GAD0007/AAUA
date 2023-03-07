@@ -1,21 +1,25 @@
 body{
     width: 100%;
     height: auto;
+    overflow-x: hidden;
 }
-
+header{
+    margin-bottom: 60px;
+}
 section.A{
     
     background-image: linear-gradient( 150deg, rgb(170, 156, 224) ,white,white,rgb(151, 130, 228) 120%);
     height: auto;
     padding-top: 40px;
-    padding-left: 4vw;
-    padding-right: 4vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-bottom: 100px;
 }
 .navbar-brand{
     padding-left: 20px;
 }
 .navbar{
-    border-radius: 30px;
+    border-radius: 35px;
 }
 .nav-item{
     padding-left: 40px;
@@ -35,20 +39,121 @@ section.A{
 }
 .talk{   
     color: white;
-    background-color: blue;
+    background-color: rgb(93, 93, 233);
     border-radius: 5px;
     font-size: small;
     font-weight: 600;
     border: none;
-    padding: 10px 25px ;
+    padding: 8px 17px ;;
     font-family:Arial, Helvetica, sans-serif;
     transition: 0.5s ease-in-out;
 }
 .talk:hover{
-    background-color: rgb(92, 92, 196);
+    background-color: rgb(53, 53, 163);
     transition: 0.3s ease-in-out;
 }
+span.line{
+    width: 25px;
+    height: 2px;
+    border-top: 2px solid rgb(236, 66, 66);
+    display: inline-block;
+    margin-bottom: 2px;
+}
+.intro1{
+    font-size: smaller;
+    color: rgb(100, 98, 98);
 
+}
+.intro2{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight:600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.intro3{
+    font-weight: lighter;
+    color: rgb(83, 80, 80);
+    margin: 10px 0px;
+
+}
+.bluebuisness{
+    color: rgb(112, 112, 224);
+}
+.redsuccess{
+    color: rgb(221, 74, 74);
+}
+.btn1{
+    color: white;
+    background-color: rgb(83, 83, 228);
+    border-radius: 5px;
+    font-size: small;
+    font-weight: 600;
+    border: none;
+    padding: 8px 17px ;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: 0.5s ease-in-out;
+    margin-top:12px ;
+    margin-bottom: 20px;
+}
+.btn1:hover{
+    background-color: rgb(53, 53, 163);
+    transition: 0.3s ease-in-out;
+}
+.hundred{
+    font-size: 40px;
+    min-width: 100%;
+    font-weight:600;
+}
+.hundred2{
+    font-size: 40px;
+    min-width: 100%;
+    font-weight: 600;
+}
+.proof{
+    min-width: 100%;
+    font-size: 15px;
+    position: relative;
+    color: rgb(85, 85, 85);
+
+}
+.above{
+    position: absolute;
+    top: -80%
+}
+.illustration{
+    max-width: 400px;
+    max-height: 1600px;
+}
+.trust{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(85, 83, 83);
+}
+.logo2{width: 20%;}
+.logo1{width: 30%;}
+.logo3{width: 20%;}
+.logo-name2{
+    
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.logo-name1{
+    font-size: 20px;
+    font-weight: bolder;
+    
+    
+}
+section.B{
+    padding-left: 1vw;
+}
+@media screen and (max-width: 887px) {
+    .illustration{
+        min-width: 130%;
+        min-height: 70%;
+    }
+
+}
 @media screen and (max-width: 991px) {
     .nav-item{
         padding-left: 0px;
@@ -72,5 +177,52 @@ section.A{
         transition: 0.5s ease-in-out;
         
     }
+    .logo3{
+        width: 30%;
+    }
+    .trust{
+        
+        
+        line-height: 70px;
+    }
+    section.A{
+    
+       
+        padding-bottom: 70px;
+    }
+    
 
+}
+@media screen and (min-width: 1500px) {
+    section.A{
+    
+       
+        height: auto;
+        padding-top: 40px;
+        padding-left: 8vw;
+        padding-right: 8vw;
+    }
+    .collapse{
+        margin-left: 10vw;
+    }
+    .calm{
+        margin-right: 10vw;
+    }
+
+}
+@media screen and (min-width: 2000px) {
+    
+    .calm{
+        margin-right: 19vw;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    section.B{
+      display: none;
+    }
+    .illustration{
+        min-width: 30%;
+        min-height: 30%;
+    }
 }
