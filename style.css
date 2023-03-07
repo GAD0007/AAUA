@@ -147,6 +147,26 @@ span.line{
 section.B{
     padding-left: 1vw;
 }
+span.line2{
+    width: 25px;
+    height: 2px;
+    border-top: 2px solid rgb(17, 0, 255);
+    display: inline-block;
+    margin-bottom: 5px;
+}
+h5{
+    display: inline;
+}
+section.C{
+    margin-left:15vw ;
+    margin-right:15vw;
+}
+.meeting{
+    max-width: 100%;
+    min-height: 100%;
+}
+
+
 @media screen and (max-width: 887px) {
     .illustration{
         min-width: 130%;
@@ -207,6 +227,14 @@ section.B{
     }
     .calm{
         margin-right: 10vw;
+    }
+    .meeting{
+        max-width: 100%;
+        min-height: 50%;
+    }
+    section.C{
+        margin-left:25vw ;
+        margin-right:25vw;
     }
 
 }
