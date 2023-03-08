@@ -146,20 +146,43 @@ span.line{
 }
 section.B{
     padding-left: 1vw;
+    margin-top: 4vw;
 }
 span.line2{
-    width: 25px;
+    width: 15px;
     height: 2px;
-    border-top: 2px solid rgb(17, 0, 255);
+    border-top: 2px solid  rgb(53, 53, 163);
     display: inline-block;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 h5{
     display: inline;
+    color:rgb(53, 53, 163);
+}
+.spec{
+    
+    color:rgb(53, 53, 163);
 }
 section.C{
     margin-left:15vw ;
     margin-right:15vw;
+    margin-top: 4vw;
+}
+h3.gap{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+a.what-we-do1{
+    text-decoration: none;
+    color: rgb(83, 82, 82);
+}
+a.what-we-do{
+    color:rgb(21, 21, 199);
+
+}
+a.in-touch{
+    color: rgb(11, 11, 221);
+    
 }
 .meeting{
     max-width: 100%;
@@ -168,6 +191,7 @@ section.C{
 section.D{
     margin-left: 6vw;
     margin-right: 6vw;
+    margin-top: 4vw;
 
 }
 .experienced{
