@@ -51,6 +51,22 @@ section.A{
     background-color: rgb(53, 53, 163);
     transition: 0.3s ease-in-out;
 }
+.talked{   
+    color: white;
+    background-color: rgb(93, 93, 233);
+    border-radius: 5px;
+    font-size: small;
+    font-weight: 600;
+    border: none;
+    padding: 8px 17px ;;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: 0.5s ease-in-out;
+}
+.talked:hover{
+    background-color: rgb(53, 53, 163);
+    transition: 0.3s ease-in-out;
+}
+
 span.line{
     width: 25px;
     height: 2px;
@@ -237,6 +253,15 @@ button.accordion-button:focus{
     background-color: brown;
     outline: none;
     box-shadow: none;
+}
+.accordion-collapse{
+    background-color: blueviolet;
+}
+#collapseOne{
+    background-color: black;
+}
+#headingOne{
+    background-color: yellow;
 }
 
 
