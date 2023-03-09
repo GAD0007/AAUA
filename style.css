@@ -228,6 +228,36 @@ a.in-touch{
 section.E{
     margin-top: 0px;
 }
+.consult-us{
+    width: 500px;
+    
+}
+.consult-us-msg{
+    width: 389px;
+    background-color: #F2F2F2;
+    padding: 5px 15px;
+    margin-top: 10px
+}
+.howcan{
+    background-color: #E5E5E5;
+    padding-right: 50px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: rgb(109, 106, 106);
+}
+.howcan:focus {
+    
+    background-color:white;
+    color: rgb(91, 91, 223);
+   
+}
+.ddd{
+    margin-left: 100px;
+}
+
+
 
 
 
@@ -291,7 +321,7 @@ section.E{
         padding-left: 8vw;
         padding-right: 8vw;
     }
-    .collapses{
+    .nav-collapse{
         margin-left: 10vw;
     }
     .calm{
