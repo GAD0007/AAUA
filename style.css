@@ -228,35 +228,16 @@ a.in-touch{
 section.E{
     margin-top: 0px;
 }
-.consult-us{
-    width: 500px;
+button.accordion-button{
+background-color: grey;    
     
 }
-.consult-us-msg{
-    width: 389px;
-    background-color: #F2F2F2;
-    padding: 5px 15px;
-    margin-top: 10px
+button.accordion-button:focus{
+    border: none;
+    background-color: brown;
+    outline: none;
+    box-shadow: none;
 }
-.howcan{
-    background-color: #E5E5E5;
-    padding-right: 50px;
-    padding-left: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-weight: bold;
-    color: rgb(109, 106, 106);
-}
-.howcan:focus {
-    
-    background-color:white;
-    color: rgb(91, 91, 223);
-   
-}
-.ddd{
-    margin-left: 100px;
-}
-
 
 
 
