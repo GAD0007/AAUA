@@ -52,8 +52,8 @@ section.A{
     transition: 0.3s ease-in-out;
 }
 .talked{   
-    color: white;
-    background-color: rgb(93, 93, 233);
+    color: rgb(99, 97, 97);
+    background-color: rgb(251, 251, 255);
     border-radius: 5px;
     font-size: small;
     font-weight: 600;
@@ -61,10 +61,16 @@ section.A{
     padding: 8px 17px ;;
     font-family:Arial, Helvetica, sans-serif;
     transition: 0.5s ease-in-out;
+    border: 2px solid rgb(97, 95, 95);
 }
 .talked:hover{
     background-color: rgb(53, 53, 163);
     transition: 0.3s ease-in-out;
+    color: white;
+}
+span.paragraph{
+    display: inline-block;
+    width: 60px;
 }
 
 span.line{
