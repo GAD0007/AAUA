@@ -8,7 +8,8 @@ header{
 }
 section.A{
     
-    background-image: linear-gradient( 150deg, rgb(170, 156, 224) ,white,white,rgb(151, 130, 228) 120%);
+     background-image: url(../Consultancy/images/New\ Project.jpg) ;
+     background-size: cover;
     height: auto;
     padding-top: 40px;
     padding-left: 6vw;
@@ -144,8 +145,14 @@ span.line{
     top: -80%
 }
 .illustration{
-    max-width: 400px;
-    max-height: 1600px;
+    max-width: 300px;
+    max-height: 500px;
+    border-radius: 30% 30% 30% 30%;
+}
+.meeting-02{
+    max-width: 450px;
+    max-height: 450px;
+    border-radius: 10px;
 }
 .trust{
     font-size: larger;
@@ -198,6 +205,7 @@ h3.gap{
     margin-bottom: 20px;
     font-weight: bold;
 }
+
 a.what-we-do1{
     text-decoration: none;
     color: rgb(83, 82, 82);
@@ -272,11 +280,11 @@ button.accordion-button:focus{
     background-color: yellow;
 }
 .interested-in-scaling{
-    background-color:#f2f2f2;
+    background-color:#d4ddf5b6;
 
 }
 footer{
-    background-color:rgb(255, 248, 236);
+    background-color:rgba(223, 222, 222, 0.623);
 }
 
 .social-logo1{
