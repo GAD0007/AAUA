@@ -276,7 +276,22 @@ button.accordion-button:focus{
 
 }
 footer{
-    background-color:#eceaea;
+    background-color:rgb(255, 248, 236);
+}
+
+.social-logo1{
+    margin-right: 20px;
+}
+.mud * a{
+    color: rgb(44, 44, 44);
+    text-decoration: none
+}
+.mud{
+    line-height:15px ;
+}
+.explore{
+    font-weight: 550;
+    line-height: 40px;
 }
 .form-control1{
     width: 67%;
@@ -292,30 +307,39 @@ footer{
 .email-for-deals{
     background-color: rgb(255, 255, 255);
     min-width: 60%;
-    border: 1px solid rgb(11,11,221);
+    border: 2px solid rgb(104, 104, 224);
     padding-left: 10px;
+    border-radius: 5px;
+    height: 30px;
+}
+.email-for-deals::placeholder{
+    color: rgb(141, 140, 140);
+    font-size: small;
 }
 .subscription-button{
     color: white;
-    min-width: 30%;
-    height: 2.5rem;
+    min-width: 25%;
     background-color: rgb(11, 11, 221);
     border-radius: 5px;
-    border: 1px solid rgb(11, 11, 221);
+    border: 2px solid rgb(11, 11, 221);
     transition: 0.5s ease-in-out;
+    height: 30px;
 }
 .subscription-button:hover{
+    height: 30px;
     color: white;
-    min-width: 30%;
-    height: 2.5rem;
+    min-width: 25%;
     background-color:  rgb(53, 53, 163);
     border-radius: 5px;
-    border: 1px solid  rgb(53, 53, 163);
+    border: 2px solid  rgb(53, 53, 163);
     transition: 0.3s ease-in-out;
 }
+
 .sub-news{
     position: relative;
-    top: 20px;
+    top: 5px;
+    font-size: small;
+    font-weight: bold;
 }
 .copyright{
     border-top: 1px solid rgb(177, 175, 175);
