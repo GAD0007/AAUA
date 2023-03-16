@@ -12,41 +12,45 @@ section.A{
      background-size: cover;
     height: auto;
     padding-top: 40px;
-    padding-left: 6vw;
-    padding-right: 6vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
     padding-bottom: 100px;
 }
 .navbar-brand{
-    padding-left: 20px;
+    padding-left: 30px;
 }
 .navbar{
     border-radius: 35px;
 }
 .nav-item{
-    padding-left: 40px;
-    
+    padding-right: 40px;
+
 }
 .navbar-nav a.nav1 {
     color: blue;
     font-weight:500;
+    font-size: small;
 }
 .navbar-nav a{
     color: rgb(163, 161, 161);
     font-weight: 500;
+    font-size: small;
 }
 .collapses{
       
 }
+
 .talk{   
     color: white;
-    background-color: rgb(93, 93, 233);
+    background-color: #4046FF;
     border-radius: 5px;
     font-size: small;
     font-weight: 600;
     border: none;
-    padding: 8px 17px ;;
+    padding: 8px 17px ;
     font-family:Arial, Helvetica, sans-serif;
     transition: 0.5s ease-in-out;
+    margin-right: 25px;
 }
 .talk:hover{
     background-color: rgb(53, 53, 163);
@@ -89,26 +93,39 @@ span.line{
 
 }
 .intro2{
-    font-size: 40px;
+    font-size: 48px;
     line-height: 50px;
     font-weight:600;
     font-family: 'Times New Roman', Times, serif;
 }
 .intro3{
+
+}
+.vec-before{
+    position: absolute;
+    
+}
+.vec-before2{
+    position: relative;
+    bottom: 17px;
+    right: 40px;
+}
+.intro3{
     font-weight: lighter;
     color: rgb(83, 80, 80);
     margin: 10px 0px;
+    font-size: 14px;
 
 }
 .bluebuisness{
-    color: rgb(112, 112, 224);
+    color: #4046FF;
 }
 .redsuccess{
     color: rgb(221, 74, 74);
 }
 .btn1{
     color: white;
-    background-color: rgb(83, 83, 228);
+    background-color: #4046FF;
     border-radius: 5px;
     font-size: small;
     font-weight: 600;
@@ -144,11 +161,7 @@ span.line{
     position: absolute;
     top: -80%
 }
-.illustration{
-    max-width: 300px;
-    max-height: 500px;
-    border-radius: 30% 30% 30% 30%;
-}
+
 .meeting-02{
     max-width: 450px;
     max-height: 450px;
@@ -187,14 +200,16 @@ span.line2{
 }
 h5{
     display: inline;
-    color:rgb(53, 53, 163);
+    color:#4046FF;
 }
 h6.ex{
     font-weight: bolder;
 }
 .spec{
     
-    color:rgb(21, 21, 199);
+    color:#4046FF;
+    font-size: 20px;
+    font-weight: bold;
 }
 section.C{
     margin-left:15vw ;
@@ -204,24 +219,44 @@ section.C{
 h3.gap{
     margin-bottom: 20px;
     font-weight: bold;
+    font-size: 32px;
+}
+h3.why-choose{
+    font-size: 40px;
+    font-weight: bold;
+}
+h3.discover{
+    font-size: 48px;
+}
+
+h5{
+    font-size: small;
+}
+h4.biz-dev{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 a.what-we-do1{
     text-decoration: none;
-    color: rgb(83, 82, 82);
+    color: rgb(138, 137, 137);
+    font-weight:bold;
+    font-size: 16px;
 }
 a.what-we-do{
-    color:rgb(21, 21, 199);
-    font-weight: bold;
+    color:#4046FF;
+    font-weight: bolder;
+    font-size: 16px;
 
 }
 a.in-touch{
-    color: rgb(11, 11, 221);
+    color: #4046FF;
     
 }
 .meeting{
-    max-width: 100%;
-    min-height: 100%;
+    
+    border-radius: 10px;
 }
 section.D{
     margin-left: 6vw;
@@ -229,6 +264,11 @@ section.D{
     margin-top: 4vw;
 
 }
+section.E{
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+
 .get-in-touch{
     margin-top: 20px;
     font-weight: bold;
@@ -239,8 +279,9 @@ a.in-touch{
     text-decoration: none;
 
 }
+
 .experienced{
-    border-left:4px solid blue ;
+    border-left:4px solid #4046FF;
     padding-left: 8px;
     border-radius: 5px;
     margin-bottom: 30px;
@@ -249,6 +290,7 @@ a.in-touch{
 .meeting2{
     max-width: 80%;
     max-height: 80%;
+    border-radius: 10px;
     
     
 }
@@ -256,31 +298,46 @@ a.in-touch{
     max-width: 80%;
     max-height: 80%;
     display: none;
+    border-radius: 10px;
 }
 section.E{
     margin-top: 0px;
 }
 button.accordion-button{
-background-color: grey;    
-    
+background-color: rgba(233, 233, 233, 0.911);  
+font-size: small;  
+    font-weight: bold;
+    color: rgb(68, 67, 67);
+    height: 35px;
+}
+
+button.accordion-button:not(.collapsed){
+    background: rgb(255, 255, 255);
+    color: blue;
+    margin-bottom: 0px;
+   
+    font-size: small;
+    height: 35px;
+    outline: none;
+    border-top: 1px solid rgb(222, 233, 222); 
 }
 button.accordion-button:focus{
-    border: none;
-    background-color: brown;
+    border-top: 1px solid rgb(222, 233, 222); 
     outline: none;
-    box-shadow: none;
 }
 .accordion-collapse{
-    background-color: blueviolet;
+    background-color: rgb(233, 228, 228);
+    outline: none;
+
+    
 }
-#collapseOne{
-    background-color: black;
+.accordion{
+    border: none;
+    box-shadow: 2px 0px 4px 0px rgb(233, 233, 233);
 }
-#headingOne{
-    background-color: yellow;
-}
+
 .interested-in-scaling{
-    background-color:#d4ddf5b6;
+    background-color:white;
 
 }
 footer{
@@ -327,7 +384,7 @@ footer{
 .subscription-button{
     color: white;
     min-width: 25%;
-    background-color: rgb(11, 11, 221);
+    background-color:#4046FF;
     border-radius: 5px;
     border: 2px solid rgb(11, 11, 221);
     transition: 0.5s ease-in-out;
@@ -361,16 +418,11 @@ footer{
 
 
 @media screen and (max-width: 887px) {
-    .illustration{
-        min-width: 130%;
-        min-height: 70%;
-    }
+    
 
 }
 @media screen and (max-width: 991px) {
-    .nav-item{
-        padding-left: 0px;
-    }
+    
     .collapse{
         padding-left: 0px;
         padding-right: 0px;  
@@ -407,6 +459,8 @@ footer{
 
 }
 @media screen and (min-width: 1500px) {
+
+    
     section.A{
     
        
@@ -415,16 +469,11 @@ footer{
         padding-left: 8vw;
         padding-right: 8vw;
     }
-    .nav-collapse{
-        margin-left: 10vw;
-    }
+    
     .calm{
         margin-right: 10vw;
     }
-    .meeting{
-        max-width: 100%;
-        min-height: 50%;
-    }
+    
     section.C{
         margin-left:25vw ;
         margin-right:25vw;
@@ -447,10 +496,7 @@ footer{
     section.B{
       display: none;
     }
-    .illustration{
-        min-width: 30%;
-        min-height: 30%;
-    }
+    
     .meeting2{
         max-width: 80%;
         max-height: 80%;
