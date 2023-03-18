@@ -2,25 +2,60 @@ body{
     width: 100%;
     height: auto;
     overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
 }
 header{
     margin-bottom: 60px;
+    z-index: 1000;
+    
 }
 section.A{
-    
-     background-image: url(../Consultancy/images/New\ Project.jpg) ;
-     background-size: cover;
     height: auto;
     padding-top: 40px;
     padding-left: 8vw;
     padding-right: 8vw;
-    padding-bottom: 100px;
+    
 }
+.blur1{
+/* Ellipse 1 */
+
+position: absolute;
+width: 465px;
+height: 400px;
+left: -166px;
+top: 60px;
+
+background: rgba(64, 70, 255, 0.35);
+filter: blur(155px);
+z-index: -10;
+
+}
+.blur2{
+    /* Ellipse 2 */
+
+position: absolute;
+width: 305px;
+height: 465px;
+right: 20px;
+top: -45px;
+
+background: rgba(64, 70, 255, 0.35);
+filter: blur(150px);
+z-index: -10;
+}
+
+
+
+
 .navbar-brand{
     padding-left: 30px;
 }
 .navbar{
-    border-radius: 35px;
+  
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 4px 36px -17px rgba(0, 0, 0, 0.25);
+    border-radius: 70px;
+    z-index: 1000;
 }
 .nav-item{
     padding-right: 40px;
@@ -36,9 +71,18 @@ section.A{
     font-weight: 500;
     font-size: small;
 }
+.navbar-nav a:hover{
+    color: blue;
+    font-weight: 500;
+    font-size: small;
+}
 .collapses{
       
 }
+.illustration{
+    z-index: 999;
+}
+
 
 .talk{   
     color: white;
@@ -170,26 +214,13 @@ span.line{
 .trust{
     font-size: larger;
     font-weight: bold;
-    color: rgb(85, 83, 83);
+    color: #A1A1AA;
 }
-.logo2{width: 20%;}
-.logo1{width: 30%;}
-.logo3{width: 20%;}
-.logo-name2{
-    
-    font-size: 20px;
-    font-weight: bolder;
 
-}
-.logo-name1{
-    font-size: 20px;
-    font-weight: bolder;
-    
-    
-}
 section.B{
     padding-left: 1vw;
     margin-top: 4vw;
+    background-color: rgb(255, 255, 255);
 }
 span.line2{
     width: 15px;
@@ -215,6 +246,8 @@ section.C{
     margin-left:15vw ;
     margin-right:15vw;
     margin-top: 4vw;
+    background-color: rgb(255, 255, 255);
+    
 }
 h3.gap{
     margin-bottom: 20px;
@@ -347,19 +380,30 @@ footer{
     background-color:rgba(223, 222, 222, 0.623);
 }
 
-.social-logo1{
-    margin-right: 20px;
-}
+
 .mud * a{
     color: rgb(44, 44, 44);
-    text-decoration: none
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+   
+    font-size: 14px;
+    color: #000120;
 }
 .mud{
-    line-height:15px ;
+    line-height: 20px;
 }
 .explore{
     font-weight: 550;
     line-height: 40px;
+}
+.follow-us{
+    padding-top:6px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.social-logo1{
+    padding-right: 30px;
+
 }
 .form-control1{
     width: 67%;
@@ -374,11 +418,11 @@ footer{
 
 .email-for-deals{
     background-color: rgb(255, 255, 255);
-    min-width: 60%;
+    width: 311px;
     border: 2px solid rgb(104, 104, 224);
     padding-left: 10px;
     border-radius: 5px;
-    height: 30px;
+    height: 36px;
 }
 .email-for-deals::placeholder{
     color: rgb(141, 140, 140);
@@ -386,27 +430,26 @@ footer{
 }
 .subscription-button{
     color: white;
-    min-width: 25%;
+    width: 110px;
     background-color:#4046FF;
     border-radius: 5px;
-    border: 2px solid rgb(11, 11, 221);
+    padding: 8px 24px 8px 24px;
+    border: none;
     transition: 0.5s ease-in-out;
-    height: 30px;
+    height: 36px;
 }
 .subscription-button:hover{
-    height: 30px;
+    
     color: white;
-    min-width: 25%;
     background-color:  rgb(53, 53, 163);
     border-radius: 5px;
-    border: 2px solid  rgb(53, 53, 163);
     transition: 0.3s ease-in-out;
 }
 
 .sub-news{
     position: relative;
-    top: 5px;
-    font-size: small;
+    top: 10px;
+    font-size: 14px;
     font-weight: bold;
 }
 .copyright{
