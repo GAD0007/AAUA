@@ -118,25 +118,32 @@ z-index: -10;
 .mad{
     max-width: 546px;
 }
+.sevice-btn{
+    display: inline;
+}
 .about-the-buisness{   
     color: white;
     background-color: #0d6efd;
-    border-radius: 5px;
-    font-size: 14px;
+    
     font-weight: 400;
     border: none;
-    padding: 8px 17px ;;
     font-family:Arial, Helvetica, sans-serif;
     transition: 0.5s ease-in-out;
     border: 2px solid #0d6efd;;
-    margin-right: 15px;
+    height: 41px;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+    
+
 }
 .about-the-buisness:hover{
     background-color: #0d6efd;
     transition: 0.3s ease-in-out;
     color: white;
     border: 2px solid #0d6efd;
-    margin-right: 15px;
+    padding: 10px;
+
 }
 .what-included{   
     color: rgb(99, 97, 97);
@@ -144,19 +151,18 @@ z-index: -10;
     border-radius: 5px;
     font-size: 14px;
     font-weight: 400;
-    border: none;
-    padding: 8px 17px ;;
     font-family:Arial, Helvetica, sans-serif;
     transition: 0.5s ease-in-out;
     border: 2px solid rgb(158, 158, 158);
-    margin-right: 15px;
+    padding: 10px;
+    height: 41px;
+    
 }
 .what-included:hover{
     background-color: #0d6efd;
     transition: 0.3s ease-in-out;
     color: white;
     border: 2px solid #0d6efd;
-    margin-right: 15px;
 }
 .rev-iew{   
     color: rgb(99, 97, 97);
@@ -165,10 +171,12 @@ z-index: -10;
     font-size: 14px;
     font-weight: 400;
     border: none;
-    padding: 8px 17px ;;
     font-family:Arial, Helvetica, sans-serif;
     transition: 0.5s ease-in-out;
     border: 2px solid rgb(158, 158, 158);
+    padding: 10px;
+    height: 41px;
+    
 
 }
 .rev-iew:hover{
@@ -176,6 +184,9 @@ z-index: -10;
     transition: 0.3s ease-in-out;
     color: white;
     border: 2px solid #0d6efd;
+}
+.sevice-btn{
+    margin-right: 15px;
 }
 
 
@@ -378,7 +389,6 @@ a.in-touch{
     box-shadow: 3px 4px 36px -17px rgba(0, 0, 0, 0.25);
     max-width: 440px;
     min-width: 350px;
-
 }
 .meeting{
     
@@ -446,14 +456,13 @@ button.accordion-button{
         background-color: rgb(255, 255, 255);
     }
     .accordion-body{
-        background-color: rgb(255, 255, 255);
-        margin-top: 10px;
-        margin-bottom: -10px;
         font-family: Nunito;
-        font-size: 13px;
-        font-weight: 400;
-        line-height: 18px;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 20px;
         letter-spacing: 0em;
+        text-align: left;
+        
     }
     
     .accordion{
@@ -467,11 +476,13 @@ button.accordion-button{
 /*end of accordion*/
 
 .interested-in-scaling{
-    background-color:white;
+    background-color:#EEF1FC;
+
+
 
 }
 footer{
-    background-color:rgba(223, 222, 222, 0.623);
+    background: #D4D4D847;
 }
 
 
@@ -549,6 +560,9 @@ footer{
 .copyright{
     border-top: 1px solid rgb(177, 175, 175);
 }
+.meeting05{
+    display: none;
+}
 
 
 
@@ -557,12 +571,75 @@ footer{
 
 
 
-@media screen and (max-width: 887px) {
+@media screen and (max-width: 981px) {
+    .meeting04{
+        min-height: 339.8365478515625px;
+        min-width: 220px;
+     
+     
+     }
     
 
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 764px) {
+    img.meeting3{
+        display: none;
+     }
     
+}
+@media screen and (max-width: 764px) {
+    .meeting05{
+       max-width: 320px;
+       max-height: 339px;
+        display: block;  
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .meeting04{
+        display: none;
+     }
+     img.meeting3{
+        display: none;
+     }
+     .sevice-btn{
+        display: block;
+    }
+    .mad{
+    
+        margin-left: auto;
+        margin-right: auto;
+       
+        text-align: center;
+    }
+    section.D{
+       
+       
+    
+
+}
+.experienced{
+    border-left:4px solid #4046FF;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    box-shadow: 3px 4px 36px -17px rgba(0, 0, 0, 0.25);
+    max-width: 440px;
+    min-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+}
+@media screen and (max-width: 991px) {
+    section.A{
+    
+       
+        height: auto;
+        padding-top: 40px;
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
     .collapse{
         padding-left: 0px;
         padding-right: 0px;  
@@ -618,12 +695,25 @@ footer{
         margin-left:25vw ;
         margin-right:25vw;
     }
+    section.D{
+        margin-left:25vw ;
+        margin-right:25vw;
+    }
+    section.E{
+        margin-left:25vw ;
+        margin-right:25vw;
+    }
     .meeting2{
         max-width: 60%;
         max-height: 80%;
         
     }
 
+}
+@media screen and (min-width: 1059px) {
+    br.make{
+        display: none;
+    }
 }
 @media screen and (min-width: 2000px) {
     
@@ -632,10 +722,7 @@ footer{
     }
 
 }
-@media screen and (max-width: 767px) {
-    section.B{
-      display: none;
-    }
+
     
     .meeting2{
         max-width: 80%;
@@ -649,4 +736,3 @@ footer{
         margin-left: 60px;
         
     }
-}
