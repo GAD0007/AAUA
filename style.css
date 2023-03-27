@@ -123,20 +123,18 @@ z-index: -10;
 }
 .about-the-buisness{   
     color: white;
-    background-color: #0d6efd;
-    
+    background-color: #0d6efd; 
     font-weight: 400;
-    border: none;
     font-family:Arial, Helvetica, sans-serif;
     transition: 0.5s ease-in-out;
-    border: 2px solid #0d6efd;;
+    border: 1px solid #0d6efd;;
     height: 41px;
     border-radius: 4px;
     padding: 10px;
     font-size: 14px;
-    
-
 }
+
+
 .about-the-buisness:hover{
     background-color: #0d6efd;
     transition: 0.3s ease-in-out;
@@ -145,15 +143,37 @@ z-index: -10;
     padding: 10px;
 
 }
+.what-included2{   
+    color: white;
+    background-color: #0d6efd;  
+    font-weight: 400;
+    border: none;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: 0.5s ease-in-out;
+    border: 2px solid #0d6efd;
+    height: 41px;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.what-included2{
+    background-color: #0d6efd;
+    transition: 0.3s ease-in-out;
+    color: white;
+    border: 1px solid #0d6efd;
+    padding: 10px;
+
+}
 .what-included{   
-    color: rgb(99, 97, 97);
+    color: #252525;
     background-color: rgb(251, 251, 255);
     border-radius: 5px;
     font-size: 14px;
     font-weight: 400;
     font-family:Arial, Helvetica, sans-serif;
     transition: 0.5s ease-in-out;
-    border: 2px solid rgb(158, 158, 158);
+    border: 1px solid #4A4A4A;
     padding: 10px;
     height: 41px;
     
@@ -162,18 +182,35 @@ z-index: -10;
     background-color: #0d6efd;
     transition: 0.3s ease-in-out;
     color: white;
-    border: 2px solid #0d6efd;
+    border: 1px solid #0d6efd;
 }
-.rev-iew{   
-    color: rgb(99, 97, 97);
+.about-the-buisness2{   
+    color: #252525;
     background-color: rgb(251, 251, 255);
     border-radius: 5px;
     font-size: 14px;
     font-weight: 400;
-    border: none;
     font-family:Arial, Helvetica, sans-serif;
     transition: 0.5s ease-in-out;
-    border: 2px solid rgb(158, 158, 158);
+    padding: 10px;
+    height: 41px;
+    border: 1px solid #4A4A4A;  
+}
+.about-the-buisness2:hover{
+    background-color: #0d6efd;
+    transition: 0.3s ease-in-out;
+    color: white;
+    border: 1px solid #0d6efd;
+}
+.rev-iew{   
+    color: #252525;
+    background-color: rgb(251, 251, 255);
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: 0.5s ease-in-out;
+    border: 1px solid #4A4A4A;
     padding: 10px;
     height: 41px;
     
@@ -183,7 +220,27 @@ z-index: -10;
     background-color: #0d6efd;
     transition: 0.3s ease-in-out;
     color: white;
-    border: 2px solid #0d6efd;
+    border: 1px solid #0d6efd;
+}
+.rev-iew3{   
+    color: rgb(255, 253, 253);
+    background-color: #0d6efd;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: 0.5s ease-in-out;
+    border: 1px solid #0d6efd;
+    padding: 10px;
+    height: 41px;
+    
+
+}
+.rev-iew3:hover{
+    background-color: #0d6efd;
+    transition: 0.3s ease-in-out;
+    color: white;
+    border: 1px solid #0d6efd;
 }
 .sevice-btn{
     margin-right: 15px;
@@ -523,7 +580,7 @@ footer{
 
 .email-for-deals{
     background-color: rgb(255, 255, 255);
-    width: 311px;
+    max-width: 50%;
     border: 2px solid rgb(104, 104, 224);
     padding-left: 10px;
     border-radius: 5px;
@@ -535,7 +592,7 @@ footer{
 }
 .subscription-button{
     color: white;
-    width: 110px;
+    max-width: 100%;
     background-color:#4046FF;
     border-radius: 5px;
     padding: 8px 24px 8px 24px;
@@ -563,6 +620,11 @@ footer{
 .meeting05{
     display: none;
 }
+.navbar-nav a.ser-vice {
+    color: blue;
+    font-weight:500;
+    font-size: small;
+    }
 
 
 
@@ -581,13 +643,13 @@ footer{
     
 
 }
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 766px) {
     img.meeting3{
         display: none;
      }
     
 }
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 766px) {
     .meeting05{
        max-width: 320px;
        max-height: 339px;
@@ -611,12 +673,22 @@ footer{
        
         text-align: center;
     }
-    section.D{
+    section.E{
+        margin-left: auto;
+        margin-right: auto;
        
-       
-    
-
-}
+        text-align: center;
+    }
+    .why-redella,.why-choose{
+        text-align: center;
+    }
+    .accordion{
+        margin-left: 17%;
+        margin-right: 17%;
+    }
+.accordion{
+    text-align: center;
+    }
 .experienced{
     border-left:4px solid #4046FF;
     padding-left: 10px;
@@ -628,9 +700,10 @@ footer{
     min-width: 350px;
     margin-left: auto;
     margin-right: auto;
+   }
+   
+}
 
-}
-}
 @media screen and (max-width: 991px) {
     section.A{
     
