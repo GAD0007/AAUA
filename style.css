@@ -48,9 +48,9 @@ z-index: -10;
     
     position: absolute;
     width: 465px;
-    height: 365px;
+    height: 565px;
     left: -166px;
-    top:530px ;
+    top:750px ;
     
     background: rgba(64, 70, 255, 0.35);
     filter: blur(155px);
@@ -243,6 +243,10 @@ z-index: -10;
     border: 1px solid #0d6efd;
 }
 /* review page*/
+.main-about-service{
+    margin-bottom: 100px;
+
+}
 .ceo-o{
     display: inline-block;
     position:relative;
@@ -251,10 +255,12 @@ z-index: -10;
 }
 
 .ceo-div{
-    border-bottom: 1px solid #D8D8D8
+    border-bottom: 1px solid #D8D8D8;
+    margin-top: 20px;
 }
 .ceo{
     display: inline-block;
+
 }
 .ceo-rank{
    position: relative;
@@ -262,7 +268,7 @@ z-index: -10;
 }
 .ceo-review{
     margin-top: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 .divider{
     width: 2px;
@@ -276,6 +282,43 @@ z-index: -10;
     
 
 }
+/*about us page*/
+.bluewe{
+    color: #4046FF;
+    font-size: 47px;
+}
+.who-are-we{
+    font-size: 47px;
+}
+.bluewe::after{
+    content: url(./images/Vector\ 17.png);
+    position: relative;
+    right: 13px;
+    bottom: 15px;
+
+ 
+    
+}
+section.team-members{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.figure-caption{
+   background-color:#EEEFFF;
+   ;
+   border-radius: 0px 0px 8px 8px;
+}
+img.figure-img{
+    margin-bottom: 0;
+}
+section.F{
+    height: auto;
+    padding-top: 40px;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    
+}
+  
 .sevice-btn{
     margin-right: 15px;
 }
@@ -481,6 +524,7 @@ a.in-touch{
     max-width: 440px;
     min-width: 350px;
 }
+
 .meeting{
     
     border-radius: 10px;
@@ -574,7 +618,13 @@ button.accordion-button{
 }
 footer{
     background: #D4D4D847;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
+
 
 
 .mud * a{
@@ -624,6 +674,10 @@ footer{
     color: rgb(141, 140, 140);
     font-size: small;
 }
+.subscribe form{
+    margin-left: auto;
+    margin-right: auto;
+}
 .subscription-button{
     color: white;
     max-width: 100%;
@@ -659,6 +713,31 @@ footer{
     font-weight:500;
     font-size: small;
     }
+    .lapa{
+        width:28px;
+        height:28px;
+        position:relative;
+      }
+      
+      .lapa:after{
+        content:"";
+        position:absolute;
+        border-top:1px solid red;
+        width:40px;
+        transform: rotate(45deg);
+        transform-origin: 0% 0%;
+      }
+      .fact100{
+        font-size: 52px;
+
+      }
+      .factlow{
+        font-size: 24px;
+        font: nunito;
+        margin-bottom: 20px;
+
+      }
+
 
 
 
@@ -704,9 +783,21 @@ footer{
     
         margin-left: auto;
         margin-right: auto;
-       
-        text-align: center;
     }
+    .dev-btnss {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        
+    }
+   .biz-net{
+    margin-left: auto;
+    margin-right: auto;
+   
+    text-align: center;
+
+   }
+    
     section.E{
         margin-left: auto;
         margin-right: auto;
@@ -735,6 +826,7 @@ footer{
     margin-left: auto;
     margin-right: auto;
    }
+ 
    
 }
 
@@ -815,12 +907,23 @@ footer{
         max-height: 80%;
         
     }
+    .loww{
+        margin-left: 9vw;
+   }
+   .experienced{
+    border-left:4px solid #4046FF;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    box-shadow: 3px 4px 36px -17px rgba(0, 0, 0, 0.25);
+    max-width: none;
+    min-width: none;
+}
 
 }
 @media screen and (min-width: 1059px) {
-    br.make{
-        display: none;
-    }
+   
 }
 @media screen and (min-width: 2000px) {
     
@@ -840,6 +943,5 @@ footer{
         max-width: 80%;
         max-height: 80%;
         display: block;
-        margin-left: 60px;
         
     }
