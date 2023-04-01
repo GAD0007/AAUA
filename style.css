@@ -26,7 +26,7 @@ left: -166px;
 top: 60px;
 
 background: rgba(64, 70, 255, 0.35);
-filter: blur(155px);
+filter: blur(200px);
 z-index: -10;
 
 }
@@ -40,23 +40,37 @@ right: 20px;
 top: -45px;
 
 background: rgba(64, 70, 255, 0.35);
-filter: blur(150px);
+filter: blur(200px);
 z-index: -10;
 }
-.blur3{
+.blur4{
     /* Ellipse 1 */
     
     position: absolute;
     width: 465px;
-    height: 565px;
+    height: 400px;
     left: -166px;
-    top:750px ;
-    
+    top:855px ;
     background: rgba(64, 70, 255, 0.35);
-    filter: blur(155px);
+    filter: blur(200px);
     z-index: -10;
     
     }
+    .blur5{
+        /* Ellipse 1 */
+        
+        position: absolute;
+        width: 465px;
+        height: 400px;
+        left: -166px;
+        top:1500px ;
+        background: rgba(64, 70, 255, 0.35);
+        filter: blur(200px);
+        z-index: -10;
+        
+        }
+
+    
 
 
 
@@ -302,11 +316,33 @@ z-index: -10;
 section.team-members{
     margin-left: 5vw;
     margin-right: 5vw;
+    margin-bottom: 10vw;
 }
+
 .figure-caption{
    background-color:#EEEFFF;
-   ;
+   
+   
    border-radius: 0px 0px 8px 8px;
+}
+figcaption.figure-caption{
+   color: rgb(0, 0, 0); 
+   font-family: Nunito;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 30px;
+   letter-spacing: 0em;
+}
+.senior-consult{
+font-family: Nunito;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+color: #B0B0B0;
+
+
 }
 img.figure-img{
     margin-bottom: 0;
