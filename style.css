@@ -455,6 +455,7 @@ section.brand-rep{
 .recent-articles,.recent-articles2{
     padding-left: 3vw;
     padding-right: 3vw;
+    max-width: 1400px;
 
 }
 
@@ -1034,6 +1035,17 @@ footer{
     
 
 }
+@media screen and (min-width: 1400px) {
+    .recent-articles,.recent-articles2{
+        padding-left: 8vw;
+        padding-right: 8vw;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+}
+
 @media screen and (min-width: 1500px) {
 
     
