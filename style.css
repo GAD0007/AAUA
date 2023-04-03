@@ -5,13 +5,13 @@ body{
     background-color: rgb(255, 255, 255);
 }
 header{
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     z-index: 1000;
     
 }
 section.A{
     height: auto;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 8vw;
     padding-right: 8vw;
     
@@ -26,7 +26,7 @@ left: -166px;
 top: 60px;
 
 background: rgba(64, 70, 255, 0.35);
-filter: blur(200px);
+filter: blur(150px);
 z-index: -10;
 
 }
@@ -40,7 +40,7 @@ right: 20px;
 top: -45px;
 
 background: rgba(64, 70, 255, 0.35);
-filter: blur(200px);
+filter: blur(150px);
 z-index: -10;
 }
 .blur4{
@@ -52,10 +52,22 @@ z-index: -10;
     left: -166px;
     top:855px ;
     background: rgba(64, 70, 255, 0.35);
-    filter: blur(200px);
+    filter: blur(150px);
     z-index: -10;
     
     }
+    .blur3{
+        /* Ellipse 1 */
+        
+        position: absolute;
+        width: 465px;
+        height: 400px;
+        left: -166px;
+        top:655px ;
+        background: rgba(64, 70, 255, 0.35);
+        filter: blur(150px);
+        z-index: -10;
+    }    
     .blur5{
         /* Ellipse 1 */
         
@@ -65,7 +77,7 @@ z-index: -10;
         left: -166px;
         top:1500px ;
         background: rgba(64, 70, 255, 0.35);
-        filter: blur(200px);
+        filter: blur(150px);
         z-index: -10;
         
         }
@@ -354,6 +366,90 @@ section.F{
     padding-right: 8vw;
     
 }
+/*end of review page*/
+/*start of teams page*/
+.team-main-images{
+    padding-left: 8vw;
+    padding-right: 8vw;
+    margin-bottom: 6vw;
+
+}
+/*end of teams page*/
+/*blog page*/
+section.brand-rep{
+    background-image:url(./images/Group\ 2607353\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 70px;
+}
+.date{
+    font-weight: 300;
+    font-size: 20px;
+}
+.date2{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.see-all{
+   font-size: 18px;
+   font-weight: 600;
+}
+.recent-art{
+   font-size: 25px;
+   font-weight: 700;
+   color: #4046FF;
+}
+.divider2{
+    width: 2px;
+    height: 30px;
+    border-right: 1px solid rgb(85, 85, 85);
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 5px;
+    position: absolute;
+    top: 2px;   
+}
+
+.divider3{
+    width: 2px;
+    height: 30px;  
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+}
+.technique{
+   font-size: 48px;
+   font-weight: 700;
+   line-height: 80px;
+   letter-spacing: -0.02em;
+}
+.ecommerce-det{
+   font-size: 24px;
+   font-weight: 600;
+   line-height: 32px;
+   letter-spacing: 0em;
+}
+
+.btn-10{
+    color: white;
+    background-color: #4046FF;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    padding: 8px 17px ;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: 0.5s ease-in-out;
+   
+}
+
+/*end of blog page*/
   
 .sevice-btn{
     margin-right: 15px;
@@ -412,7 +508,7 @@ span.line{
     color: white;
     background-color: #4046FF;
     border-radius: 5px;
-    font-size: small;
+    font-size: 14px;
     font-weight: 600;
     border: none;
     padding: 8px 17px ;
@@ -700,9 +796,9 @@ footer{
 
 .email-for-deals{
     background-color: rgb(255, 255, 255);
-    max-width: 50%;
+    
     border: 2px solid rgb(104, 104, 224);
-    padding-left: 10px;
+   
     border-radius: 5px;
     height: 36px;
 }
@@ -711,8 +807,7 @@ footer{
     font-size: small;
 }
 .subscribe form{
-    margin-left: auto;
-    margin-right: auto;
+  
 }
 .subscription-button{
     color: white;
@@ -733,8 +828,8 @@ footer{
 }
 
 .sub-news{
-    position: relative;
-    top: 10px;
+    
+    
     font-size: 14px;
     font-weight: bold;
 }
@@ -792,11 +887,15 @@ footer{
     
 
 }
-@media screen and (max-width: 766px) {
-    img.meeting3{
-        display: none;
+@media screen and (max-width: 500px) {
+    .technique{
+        font-size: 20px !important;
+        font-weight: 700;
+       
+        letter-spacing: -0.02em;     
+       
+       
      }
-    
 }
 @media screen and (max-width: 766px) {
     .meeting05{
@@ -862,6 +961,15 @@ footer{
     margin-left: auto;
     margin-right: auto;
    }
+   .technique{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+ }
+ .see-all{
+    text-align: center;
+ }
  
    
 }
