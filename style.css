@@ -671,8 +671,7 @@ a.in-touch{
 .meeting{
     
     border-radius: 10px;
-        max-width: 80%;
-        max-height: 80%;
+        
         border-radius: 10px;      
     }
 .meeting2{
@@ -832,10 +831,7 @@ footer{
     border-radius: 5px;
     transition: 0.3s ease-in-out;
 }
-
-.sub-news{
-    
-    
+.sub-news{   
     font-size: 14px;
     font-weight: bold;
 }
@@ -850,13 +846,13 @@ footer{
     font-weight:500;
     font-size: small;
     }
-    .lapa{
-        width:28px;
-        height:28px;
-        position:relative;
-      }
+.lapa{ 
+     width:28px;
+     height:28px;
+     position:relative;
+}
       
-      .lapa:after{
+ .lapa:after{
         content:"";
         position:absolute;
         border-top:1px solid red;
