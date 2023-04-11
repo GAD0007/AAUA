@@ -372,6 +372,7 @@ section.F{
     padding-left: 8vw;
     padding-right: 8vw;
     margin-bottom: 6vw;
+    max-width: 2000px;
 
 }
 /*end of teams page*/
@@ -455,7 +456,7 @@ section.brand-rep{
 .recent-articles,.recent-articles2{
     padding-left: 3vw;
     padding-right: 3vw;
-    max-width: 1400px;
+    max-width: 2000px;
 
 }
 
@@ -760,15 +761,11 @@ button.accordion-button{
 }
 footer{
     background: #D4D4D847;
-    padding-left: 8vw;
-    padding-right: 8vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
 }
-
-
-
 .mud * a{
     color: rgb(44, 44, 44);
     text-decoration: none;
@@ -791,7 +788,6 @@ footer{
 }
 .social-logo1{
     padding-right: 30px;
-
 }
 .form-control1{
     width: 67%;
@@ -803,7 +799,6 @@ footer{
     outline: none !important;
     box-shadow: none;
 }
-
 .email-for-deals{
     background-color: rgb(255, 255, 255);
     
@@ -811,6 +806,7 @@ footer{
    
     border-radius: 5px;
     height: 36px;
+    width: 70%;
 }
 .email-for-deals::placeholder{
     color: rgb(141, 140, 140);
@@ -821,7 +817,7 @@ footer{
 }
 .subscription-button{
     color: white;
-    max-width: 100%;
+    width: 30%;
     background-color:#4046FF;
     border-radius: 5px;
     padding: 8px 24px 8px 24px;
@@ -989,6 +985,11 @@ footer{
 .recent-articles2{
     display: none;
 }
+.follow-us{
+    padding-top:25px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
 }
 
 @media screen and (max-width: 991px) {
@@ -1039,6 +1040,15 @@ footer{
     .recent-articles,.recent-articles2{
         padding-left: 8vw;
         padding-right: 8vw;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    .team-main-images{
+        padding-left: 8vw;
+        padding-right: 8vw;
+        margin-bottom: 6vw;
+        max-width: 2000px;
         margin-left: auto;
         margin-right: auto;
     
@@ -1094,9 +1104,26 @@ footer{
 }
 
 }
-@media screen and (min-width: 1059px) {
-   
-}
+@media screen and (max-width: 1200px) {
+    .email-for-deals{
+        background-color: rgb(255, 255, 255);
+        
+        border: 2px solid rgb(104, 104, 224);
+       
+        border-radius: 5px;
+        height: 36px;
+        width: 50%;
+    }
+    .subscription-button{
+        color: white;
+        width: 50%;
+        background-color:#4046FF;
+        border-radius: 5px;
+        padding: 8px 24px 8px 24px;
+        border: none;
+        transition: 0.5s ease-in-out;
+        height: 36px;
+    }
 @media screen and (min-width: 2000px) {
     
     .calm{
@@ -1117,3 +1144,4 @@ footer{
         display: block;
         
     }
+}
