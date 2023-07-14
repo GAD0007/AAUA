@@ -9,12 +9,33 @@ header{
     z-index: 1000;
     
 }
+header.two{
+    margin-bottom: 20px;
+    z-index: 1000;
+    
+}
+
+.navbar-toggler-icon {
+   display: none;
+}
+.navbar-toggler{
+    background-image: none;
+    margin-right: 20px;
+    outline: none!important;
+}
+
+
+
 section.A{
     height: auto;
     padding-top: 20px;
     padding-left: 8vw;
     padding-right: 8vw;
     
+}
+.main-page{
+    padding-left: 12vw;
+    padding-right: 8vw;
 }
 .blur1{
 /* Ellipse 1 */
@@ -99,6 +120,8 @@ z-index: -10;
 }
 .nav-item{
     padding-right: 40px;
+    margin-left: 10px;
+    
 
 }
 
@@ -112,11 +135,7 @@ z-index: -10;
     font-weight: 500;
     font-size: small;
 }
-.navbar-nav a:hover{
-    color: blue;
-    font-weight: 500;
-    font-size: small;
-}
+
 
 .collapses{
 }
@@ -328,7 +347,7 @@ z-index: -10;
 section.team-members{
     margin-left: 5vw;
     margin-right: 5vw;
-    margin-bottom: 10vw;
+    margin-bottom: 5vw;
 }
 
 .figure-caption{
@@ -359,6 +378,7 @@ color: #B0B0B0;
 img.figure-img{
     margin-bottom: 0;
 }
+
 section.F{
     height: auto;
     padding-top: 40px;
@@ -375,6 +395,7 @@ section.F{
     max-width: 2000px;
 
 }
+
 /*end of teams page*/
 /*blog page*/
 section.brand-rep{
@@ -456,8 +477,11 @@ section.brand-rep{
 .recent-articles,.recent-articles2{
     padding-left: 3vw;
     padding-right: 3vw;
-    max-width: 2000px;
+    max-width: 1400px;
 
+}
+.arrow-right-blue{
+    margin-top: 10px;
 }
 
 /*end of blog page*/
@@ -569,7 +593,7 @@ section.B{
 span.line2{
     width: 15px;
     height: 2px;
-    border-top: 2px solid  rgb(53, 53, 163);
+    border-top: 2px solid blue;
     display: inline-block;
     margin-bottom: 0px;
 }
@@ -587,8 +611,8 @@ h6.ex{
     font-weight: bold;
 }
 section.C{
-    margin-left:15vw ;
-    margin-right:15vw;
+    margin-left:10vw ;
+    margin-right:16vw;
     margin-top: 4vw;
     background-color: rgb(255, 255, 255);
     
@@ -604,6 +628,7 @@ h3.why-choose{
 }
 h3.discover{
     font-size: 48px;
+    font-weight: bold;
 }
 
 h5{
@@ -636,8 +661,8 @@ a.in-touch{
 }
 
 section.D{
-    margin-left: 6vw;
-    margin-right: 6vw;
+    margin-left:10vw ;
+    margin-right:10vw;
 }
 section.E{
     margin-left: 6vw;
@@ -665,8 +690,9 @@ a.in-touch{
     margin-top: 20px;
     box-shadow: 3px 4px 36px -17px rgba(0, 0, 0, 0.25);
     max-width: 440px;
-    min-width: 350px;
+   
 }
+
 
 .meeting{
     
@@ -765,6 +791,13 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
+footer2{
+    background: #D4D4D847;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin-left: auto;
+    margin-right: auto;
+}
 .mud * a{
     color: rgb(44, 44, 44);
     text-decoration: none;
@@ -805,7 +838,7 @@ footer{
    
     border-radius: 5px;
     height: 36px;
-    width: 70%;
+    width: 55%;
 }
 .email-for-deals::placeholder{
     color: rgb(141, 140, 140);
@@ -816,21 +849,16 @@ footer{
 }
 .subscription-button{
     color: white;
-    width: 30%;
+    width: 45%;
     background-color:#4046FF;
     border-radius: 5px;
-    padding: 8px 24px 8px 24px;
+    padding: 8px 24px 8px 20px;
     border: none;
     transition: 0.5s ease-in-out;
     height: 36px;
+    font-size: 100%;
 }
-.subscription-button:hover{
-    
-    color: white;
-    background-color:  rgb(53, 53, 163);
-    border-radius: 5px;
-    transition: 0.3s ease-in-out;
-}
+
 .sub-news{   
     font-size: 14px;
     font-weight: bold;
@@ -890,13 +918,106 @@ footer{
 
         }
       /*end of policy page*/
+ /*contact page*/
+ .vec-before3{
+    position: absolute;
+    
+}
+.vec-before4{
+    position: relative;
+    bottom: 25px;
+    left: 300px;
+}
+
+.contact-img{
+    z-index: 100;
+  
+}
+.contact-page{
+  
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+.page{
+    height: 550px;
+}
+.free-consultation{
+
+
+font-size: 1.2em;
+font-weight: 500;
+
+
+
+}
+label{
+    color: blue;
+}
+textarea.form-control {
+    resize: none;
+  }
+  
+  
+textarea.form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #D8D8D8
+ 
+} 
+.input-group input:focus {
+    outline: none;
+  }
+#Fullname,#Email,#inputState:focus{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #D8D8D8
+}
+#inputState{
+    background-color: white;
+    width: 100%;
+    height: 63%;
+    border-radius: 5px;
+    padding-left:10px ;
+    padding-right: 20px;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #D8D8D8
+    
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    
+    background-image: url('images/chevron-down.png');
+    background-repeat: no-repeat;
+    background-position: right 20px bottom 6px;
+   
+  }
+  
+  /* Style the arrow image */
+  select option {
+    color: rgb(241, 0, 0);
+  }
+  
+  select::-ms-expand {
+    display: none;
+  }
+ 
+ 
+  option:hover {
+    background-color: yellow;
+  }
+
+ /*end of contact page*/
 
 
 
 
 
 
-
+ 
 
 @media screen and (max-width: 981px) {
     .meeting04{
@@ -908,18 +1029,63 @@ footer{
     
 
 }
-@media screen and (max-width: 500px) {
-    .technique{
-        font-size: 20px !important;
-        font-weight: 700;
-       
-        letter-spacing: -0.02em;     
-       
-       
-     }
+@media screen and (max-width: 570px) {
+    .visi1{
+        display: none;
+    }
+    
+
+}
+@media screen and (min-width: 570px) {
+    .visi2{
+        display: none;
+        
+    }
+    
+
+}
+@media screen and (max-width: 380px) {
+    .break{
+        display: none;
+    }
      
 }
+@media screen and (max-width: 981px) {
+    .meeting04{
+        min-height: 339.8365478515625px;
+        min-width: 220px;
+     
+     
+     }
+    
+
+}
 @media screen and (max-width: 766px) {
+    .who-are-we{
+        font-size: 47px;
+        text-align: center;
+    }
+    .button12{
+        text-align: center;
+    }
+    footer.two{
+        background: #D4D4D847;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 400px;
+    }
+    .free-consultation{
+
+
+        font-size: 1em;
+        font-weight: 500;
+        text-align: center;
+        
+        
+        
+        }
     .meeting05{
        max-width: 320px;
        max-height: 339px;
@@ -956,19 +1122,19 @@ footer{
    }
     
     section.E{
-        margin-left: auto;
-        margin-right: auto;
+        
        
         text-align: center;
     }
     .why-redella,.why-choose{
         text-align: center;
     }
-    .accordion{
-        margin-left: 17%;
-        margin-right: 17%;
+    .accordion-item{
+        max-width: none;
+         margin-bottom: 20px;
     }
 .accordion{
+    
     text-align: center;
     }
 .experienced{
@@ -1009,6 +1175,8 @@ footer{
 .mud2{
     text-align: center;
 }
+
+
 }
 
 @media screen and (max-width: 991px) {
@@ -1018,8 +1186,44 @@ footer{
         padding-left: 0vw;
         padding-right: 0vw;
     }
+    h3.why-choose{
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    h3.discover{
+        font-size: 40px;
+    }
+    .navbar-nav li  {
+        border-bottom: 1px solid #ccc;
+        width: 96%; 
+      }
+     ul.navbar-nav li.no-line {
+        border-bottom: none;
+      }
+      
+     
+      .what-we-do1{
+        text-align: center;
+      }
+    .contact-page{
+  
+        padding-left: 0vw;
+        padding-right: 0vw;
+    }
+    .middle{
+        text-align: center;
+        display:none;
+    }
+    .contact-img{
+        margin-bottom: 100px;
+    }
     header{
         margin-bottom: 30px;
+        z-index: 1000;   
+    } 
+    header.two{
+        margin-bottom: 0px;
         z-index: 1000;   
     } 
     .collapse{
@@ -1048,6 +1252,11 @@ footer{
         padding: 10px 25px ;
         font-family:Arial, Helvetica, sans-serif;
         transition: 0.5s ease-in-out;
+        width: 96%;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+        
         
     }
     .logo3{
@@ -1058,6 +1267,7 @@ footer{
         
         line-height: 70px;
     }
+    
    
     
 
@@ -1099,12 +1309,11 @@ footer{
     }
     
     section.C{
-        margin-left:25vw ;
-        margin-right:25vw;
+        
     }
     section.D{
-        margin-left:25vw ;
-        margin-right:25vw;
+        margin-left:10vw ;
+        margin-right:10vw;
     }
     section.E{
         margin-left:25vw ;
@@ -1131,25 +1340,8 @@ footer{
 
 }
 @media screen and (max-width: 1200px) {
-    .email-for-deals{
-        background-color: rgb(255, 255, 255);
-        
-        border: 2px solid rgb(104, 104, 224);
-       
-        border-radius: 5px;
-        height: 36px;
-        width: 50%;
-    }
-    .subscription-button{
-        color: white;
-        width: 50%;
-        background-color:#4046FF;
-        border-radius: 5px;
-        padding: 8px 24px 8px 24px;
-        border: none;
-        transition: 0.5s ease-in-out;
-        height: 36px;
-    }
+  
+}
 @media screen and (min-width: 2000px) {
     
     .calm{
@@ -1170,4 +1362,3 @@ footer{
         display: block;
         
     }
-}
