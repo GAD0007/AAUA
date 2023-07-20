@@ -65,10 +65,7 @@ section.A{
 }
 .main-header{}
 
-/* beginnies of cities section*/
-.cities{
-    margin: 2rem 10rem;
-}
+/* start of about us cards section*/
 
 .imgwrap{
     display: block;
@@ -76,6 +73,7 @@ section.A{
     transition: 0.4s ease-in-out;
     background-color: rgb(53, 53, 53);
     position: relative;    
+    
 }
 .information-container{
     color: white;
@@ -87,77 +85,63 @@ section.A{
 .information{ 
     width: 100%;
     height: 100%;
-    position: absolute;
- 
+    position: relative;
+
 }
 .center-state{
     width: 100%;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,+50%);
+    position: absolute;
+    top: 55px;
+    left: 0%;
+    height: 100%;
+    
     color: #ffffff;
     z-index: 1;
 
 
 }
+.svg-imgg{
+    position: relative;
+}
+.svg-pic{
+    width: 25px;
+   }
 .btn-background{
   
 
     width: 100%;
     height: 20%;
     position: absolute;
-    bottom: 0;
     pointer-events: auto;
     z-index: 1;
-    
     visibility: visible;
-    top: 5px;
-    left: 5px;
+    top: 100%;
 }
-/* start of intro section */
-.intro-green{
-    
-}
-.green-text{
-    
-
-}
-.intro-box{
-    max-width: 600px;
-}
-/* end of intro section */
 .about-us-cards{
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 .imgwrap:hover .btn-background{
     visibility: visible;
     transform: scaleY(1);
    
 }
-.btn-itself{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 70%;
-    background-color: rgb(30, 30, 30);
-    opacity: 0,7;
-    border: 2px solid #ffffff;
-    transition: 0.2s;
-}
+
 .btn-itself:hover{
     
 
 }
-.searchbtn{
+.btn-itself{
     background-color: rgb(142, 196, 142);
     border-radius: 5px;
-    border: 0px;
-    padding: 7px 20px;
+    padding: 2px 12px;
     width: 10rem;
     color: white;
-    border: 2px solid #ffffff;
+    border: 2px solid #ffffff;  
+    opacity: 0,7;
+    top: 100%;
+    position: relative;
+    top: 50px;
  }
  .searchbtn:hover{
     background-color: rgb(142, 196, 142);
@@ -170,13 +154,105 @@ section.A{
 }
 .our-goals-card{
     font-size: 1.2rem;
+    margin-bottom: 0;
+    position: relative;
 }
 .goals-preview{
     font-size: 0.7rem;
+    margin-bottom: 0;
+    position: absolute;
+}
+.new-box{
+    position: relative;
+    background-color: red;
+    width:100%;
+    height: 17rem;
+    background: rgba(73, 72, 72, 0.7)  url('images/microphone.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+.new-box:hover{
+    position: relative;
+    background-color: red;
+    width:100%;
+    height: 18rem;
+    background: rgba(73, 72, 72, 0.7) url('images/microphone.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    border-radius: 10px;
+    padding: 20px 20px;
+    transition: 0.5s ease-in-out;
+}
+.latest-box{
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    padding-right: 20px;
+
+
+}
+.new-goal{
+    font-size: 1.2rem;
+    
+    font-weight: bolder;
+
+}
+.go-preview{
+    font-size: 0.75rem;
+    font-weight: 500;
+
+}
+.latest-btn{
+    background-color: rgb(142, 196, 142);
+    border-radius: 5px;
+    padding: 2px 12px;
+    width: 10rem;
+    color: white;
+    border: 2px solid #ffffff; 
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    
+}
+.latest-btn:hover{
+    background-color: rgb(47, 128, 47);
+    border-radius: 5px;
+    padding: 2px 12px;
+    width: 10rem;
+    color: white;
+    border: 2px solid #ffffff; 
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    
 }
 
-
 /* end of cities section */
+
+/* start of intro section */
+.intro-green{
+    
+}
+.green-text{
+    
+
+}
+.intoduction-section{
+    margin-left: 8vw;
+    margin-right: 8vw;
+
+}
+.carousel{
+    border: 10px solid rgb(142, 196, 142);
+    border-radius: 10px;
+    background-color: rgb(142, 196, 142);
+}
+.intro-box{
+    max-width: 500px;
+    
+}
+/* end of intro section */
+
 .blur1{
 /* Ellipse 1 */
 
@@ -297,7 +373,7 @@ z-index: -10;
     margin-right: 25px;
 }
 .talk:hover{
-    background-color: rgb(142, 196, 142);
+    background-color: rgb(41, 124, 41);
     transition: 0.3s ease-in-out;
 }
 .mad{
@@ -549,10 +625,7 @@ section.brand-rep{
 }
 
 
-.date{
-    font-weight: 300;
-    font-size: 20px;
-}
+
 .date2{
   font-size: 16px;
   font-weight: 400;
@@ -657,7 +730,12 @@ span.line{
 }
 .intro3{
    color: red;
+   position: relative;
 }
+.intoduction-section{
+
+}
+
 .vec-before{
     position: absolute;
     
@@ -754,7 +832,7 @@ h6.ex{
 }
 .spec{
     
-    color:#4046FF;
+    color:rgb(142, 196, 142);
     font-size: 20px;
     font-weight: bold;
 }
@@ -782,6 +860,9 @@ h3.discover{
 
 h5{
     font-size: small;
+}
+.testimonial{
+    
 }
 h4.biz-dev{
     color: black;
@@ -883,7 +964,7 @@ button.accordion-button{
     
       button.accordion-button:not(.collapsed){
         background: rgb(255, 255, 255);
-        color: blue;  
+        color: rgb(142, 196, 142);;  
         font-size: small;
         height: 47px;    
         box-shadow: 2px 5px 20px rgb(222, 222, 222);
@@ -1178,6 +1259,43 @@ select {
     
 
 }
+@media screen and (max-width: 812px) {
+    .new-box{
+        position: relative;
+        background-color: red;
+        width:100%;
+        height: 19rem;
+        background: rgba(73, 72, 72, 0.7)  url('images/microphone.jpg');
+        background-size: cover;
+        background-blend-mode: darken;
+        border-radius: 10px;
+        padding: 20px 20px;
+    }
+    .new-box:hover{
+        position: relative;
+        background-color: red;
+        width:100%;
+        height: 19rem;
+        background: rgba(73, 72, 72, 0.7) url('images/microphone.jpg');
+        background-size: cover;
+        background-blend-mode: darken;
+        border-radius: 10px;
+        padding: 20px 20px;
+        transition: 0.3s ease-in-out;
+    }
+    .latest-box{
+        position: absolute;
+        bottom: 20px;
+        color: white;
+        padding-right: 20px;
+    
+    
+    }
+ 
+    
+
+}
+
 @media screen and (max-width: 570px) {
     .visi1{
         display: none;
@@ -1199,6 +1317,45 @@ select {
     }
      
 }
+@media screen and (max-width: 490px) {
+    .latest-btn{
+        background-color: rgb(142, 196, 142);
+        border-radius: 5px;
+        padding: 2px 12px;
+        width: 100px;
+        color: white;
+        border: 2px solid #ffffff; 
+        font-weight: 300;
+        font-size: 0.8rem;
+        transition: 0.3s ease-in-out;
+        
+    }
+     
+}
+@media screen and (max-width: 300px) {
+    .about-us-cards{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+}
+@media screen and (max-width: 200px) {
+    .new-box{
+        position: relative;
+        background-color: red;
+        width:100%;
+        height: 20rem;
+        background: rgba(73, 72, 72, 0.7)  url('images/microphone.jpg');
+        background-size: cover;
+        background-blend-mode: darken;
+        border-radius: 10px;
+        padding: 20px 20px;
+    }
+
+}
+
+
+
 @media screen and (max-width: 981px) {
     .meeting04{
         min-height: 339.8365478515625px;
@@ -1325,7 +1482,6 @@ select {
     text-align: center;
 }
 
-
 }
 
 @media screen and (max-width: 991px) {
@@ -1335,6 +1491,7 @@ select {
         padding-left: 0vw;
         padding-right: 0vw;
         position: relative;
+        margin-bottom: 0px !important;
     
         
     }
@@ -1371,7 +1528,7 @@ select {
         margin-bottom: 100px;
     }
     header{
-        margin-bottom: 30px;
+        margin-bottom: 0px;
         z-index: 1000;   
     } 
     header.two{
@@ -1383,7 +1540,7 @@ select {
         padding-right: 0px;  
     }
     .navbar-brand{
-        padding-left: 0px;
+        padding-left: 10px;
     }
     .navbar{
     background-color: rgb(255, 255, 255);
@@ -1396,7 +1553,7 @@ select {
     }
     .talk{   
         color: white;
-        background-color: blue;
+        background-color: rgb(142, 196, 142);
         border-radius: 5px;
         font-size: small;
         font-weight: 600;
@@ -1411,6 +1568,11 @@ select {
         
         
     }
+    .talk:hover{
+        background-color: rgb(41, 124, 41);
+        transition: 0.3s ease-in-out;
+    }
+  
     .logo3{
         width: 30%;
     }
@@ -1419,39 +1581,7 @@ select {
         
         line-height: 70px;
     }
-    /*  */
-    .svg-pic{
-     width: 25px;
-    }
-    .searchbtn{
-    background-color: rgb(142, 196, 142);
-    border-radius: 5px;
-    border: 0px;
-    padding: 7px 5px;
-    width: 5rem;
-    color: white;
-   }
-   .btn-itself{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 40%;
-      background-color: rgb(142, 196, 142);
-    opacity: 0,7;
-    border: 2px solid #ffffff;
-    transition: 0.2s;
-}
-.center-state{
-    width: 100%;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,+10%);
-    color: #ffffff;
-    z-index: 1;
-
-
-}
+   
    
     
 
