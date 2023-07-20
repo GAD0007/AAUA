@@ -4,6 +4,15 @@ body{
     overflow-x: hidden;
     background-color: rgb(255, 255, 255);
 }
+.AAUA-NAME{
+    height: 50px;
+    font-size: large;
+    font-weight: 700;
+    position: relative;
+    bottom: 0px;
+    color: green;
+    
+}
 header{
     margin-bottom: 20px;
     z-index: 1000;
@@ -29,14 +38,145 @@ header.two{
 section.A{
     height: auto;
     padding-top: 20px;
-    padding-left: 8vw;
-    padding-right: 8vw;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    position: sticky;
+    top: -20px;
+    z-index: 999;
     
 }
-.main-page{
-    padding-left: 12vw;
-    padding-right: 8vw;
+
+.logo-web{
+    width: 150px;
+    height: 50px;
+
 }
+.main-page{
+    padding-left: 5vw;
+    padding-right: 2vw;
+    background-image: url('images/global-connections.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 440px;
+    box-sizing: border-box ; 
+    background-position: center;   
+    background-color: #000120;
+}
+.main-header{}
+
+/* beginnies of cities section*/
+.cities{
+    margin: 2rem 10rem;
+}
+
+.imgwrap{
+    display: block;
+    border-radius: 10px 10px 10px 10px;
+    transition: 0.4s ease-in-out;
+    background-color: rgb(53, 53, 53);
+    position: relative;    
+}
+.information-container{
+    color: white;
+    background-color: rgb(7, 7, 7);
+    position: relative;
+
+}
+
+.information{ 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+ 
+}
+.center-state{
+    width: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,+50%);
+    color: #ffffff;
+    z-index: 1;
+
+
+}
+.btn-background{
+  
+
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    pointer-events: auto;
+    z-index: 1;
+    
+    visibility: visible;
+    top: 5px;
+    left: 5px;
+}
+/* start of intro section */
+.intro-green{
+    
+}
+.green-text{
+    
+
+}
+.intro-box{
+    max-width: 600px;
+}
+/* end of intro section */
+.about-us-cards{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.imgwrap:hover .btn-background{
+    visibility: visible;
+    transform: scaleY(1);
+   
+}
+.btn-itself{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 70%;
+    background-color: rgb(30, 30, 30);
+    opacity: 0,7;
+    border: 2px solid #ffffff;
+    transition: 0.2s;
+}
+.btn-itself:hover{
+    
+
+}
+.searchbtn{
+    background-color: rgb(142, 196, 142);
+    border-radius: 5px;
+    border: 0px;
+    padding: 7px 20px;
+    width: 10rem;
+    color: white;
+    border: 2px solid #ffffff;
+ }
+ .searchbtn:hover{
+    background-color: rgb(142, 196, 142);
+
+ }
+ .city{
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.our-goals-card{
+    font-size: 1.2rem;
+}
+.goals-preview{
+    font-size: 0.7rem;
+}
+
+
+/* end of cities section */
 .blur1{
 /* Ellipse 1 */
 
@@ -46,7 +186,7 @@ height: 400px;
 left: -166px;
 top: 60px;
 
-background: rgba(64, 70, 255, 0.35);
+background: rgb(97, 153, 97);
 filter: blur(150px);
 z-index: -10;
 
@@ -60,7 +200,7 @@ height: 465px;
 right: 20px;
 top: -45px;
 
-background: rgba(64, 70, 255, 0.35);
+background: rgb(97, 153, 97);
 filter: blur(150px);
 z-index: -10;
 }
@@ -114,8 +254,8 @@ z-index: -10;
 .navbar{
   
     background-color: rgb(255, 255, 255);
-    box-shadow: 3px 4px 36px -17px rgba(0, 0, 0, 0.25);
-    border-radius: 70px;
+    box-shadow: 3px 4px 86px -17px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
     z-index: 1000;
 }
 .nav-item{
@@ -126,7 +266,7 @@ z-index: -10;
 }
 
 .navbar-nav a.nav1 {
-    color: blue;
+    color: green;
     font-weight:500;
     font-size: small;
 }
@@ -146,7 +286,7 @@ z-index: -10;
 
 .talk{   
     color: white;
-    background-color: #4046FF;
+    background-color: rgb(142, 196, 142);
     border-radius: 5px;
     font-size: small;
     font-weight: 600;
@@ -157,7 +297,7 @@ z-index: -10;
     margin-right: 25px;
 }
 .talk:hover{
-    background-color: rgb(53, 53, 163);
+    background-color: rgb(142, 196, 142);
     transition: 0.3s ease-in-out;
 }
 .mad{
@@ -505,7 +645,7 @@ span.line{
 }
 .intro1{
     font-size: smaller;
-    color: rgb(100, 98, 98);
+    color: rgb(253, 248, 248);
 
 }
 .intro2{
@@ -513,9 +653,10 @@ span.line{
     line-height: 50px;
     font-weight:600;
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 .intro3{
-
+   color: red;
 }
 .vec-before{
     position: absolute;
@@ -527,10 +668,11 @@ span.line{
     right: 40px;
 }
 .intro3{
-    font-weight: lighter;
-    color: rgb(83, 80, 80);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
     margin: 10px 0px;
-    font-size: 14px;
+    font-size: 25px;
+    max-width: 500px;
 
 }
 .bluebuisness{
@@ -541,7 +683,7 @@ span.line{
 }
 .btn1{
     color: white;
-    background-color: #4046FF;
+    background-color: rgb(142, 196, 142);
     border-radius: 5px;
     font-size: 14px;
     font-weight: 600;
@@ -551,9 +693,15 @@ span.line{
     transition: 0.5s ease-in-out;
     margin-top:12px ;
     margin-bottom: 20px;
+    animation: blink 3s infinite; /* Blink animation lasting 1 second, infinite repetitions */
+}
+@keyframes blink {
+  0% { opacity: 1; } /* Starting point, fully visible */
+  50% { opacity: 0; } /* Blinking, fully transparent */
+  100% { opacity: 1; } /* Back to fully visible */
 }
 .btn1:hover{
-    background-color: rgb(53, 53, 163);
+    background-color: rgb(142, 196, 142);
     transition: 0.3s ease-in-out;
 }
 .hundred{
@@ -580,9 +728,9 @@ span.line{
 
 
 .trust{
-    font-size: larger;
+    font-size: small;
     font-weight: bold;
-    color: #A1A1AA;
+    color: rgb(79, 116, 88);
 }
 
 section.B{
@@ -593,7 +741,7 @@ section.B{
 span.line2{
     width: 15px;
     height: 2px;
-    border-top: 2px solid blue;
+    border-top: 2px solid rgb(142, 196, 142);
     display: inline-block;
     margin-bottom: 0px;
 }
@@ -621,6 +769,7 @@ h3.gap{
     margin-bottom: 20px;
     font-weight: bold;
     font-size: 32px;
+    color:  rgb(142, 196, 142);
 }
 h3.why-choose{
     font-size: 40px;
@@ -1180,11 +1329,14 @@ select {
 }
 
 @media screen and (max-width: 991px) {
-    section.A{ 
+    section.A{
         height: auto;
-        padding-top: 0px;
+        padding-top: 20px;
         padding-left: 0vw;
         padding-right: 0vw;
+        position: relative;
+    
+        
     }
     h3.why-choose{
         font-size: 40px;
@@ -1267,7 +1419,39 @@ select {
         
         line-height: 70px;
     }
-    
+    /*  */
+    .svg-pic{
+     width: 25px;
+    }
+    .searchbtn{
+    background-color: rgb(142, 196, 142);
+    border-radius: 5px;
+    border: 0px;
+    padding: 7px 5px;
+    width: 5rem;
+    color: white;
+   }
+   .btn-itself{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 40%;
+      background-color: rgb(142, 196, 142);
+    opacity: 0,7;
+    border: 2px solid #ffffff;
+    transition: 0.2s;
+}
+.center-state{
+    width: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,+10%);
+    color: #ffffff;
+    z-index: 1;
+
+
+}
    
     
 
