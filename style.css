@@ -162,7 +162,36 @@ section.A{
     margin-bottom: 0;
     position: absolute;
 }
-.new-box{
+.new-box1{
+    position: relative;
+    background-color: red;
+    width:100%;
+    height: 17rem;
+    background: rgba(73, 72, 72, 0.7)  url('images/female-researchers-examined-tobacco-leaves.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+.new-box1:hover{
+    position: relative;
+    background-color: red;
+    width:100%;
+    height: 18rem;
+    background: rgba(73, 72, 72, 0.7) url('images/female-researchers-examined-tobacco-leaves.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    border-radius: 10px;
+    padding: 20px 20px;
+    transition: 1s ease-out;
+    cursor:pointer;
+}
+.new-box1:not(:hover) {
+    transition: 1s ease, color 1s ease; /* Set transition for background color and color */
+   
+   
+  }
+  .new-box2{
     position: relative;
     background-color: red;
     width:100%;
@@ -173,7 +202,7 @@ section.A{
     border-radius: 10px;
     padding: 20px 20px;
 }
-.new-box:hover{
+.new-box2:hover{
     position: relative;
     background-color: red;
     width:100%;
@@ -183,8 +212,43 @@ section.A{
     background-blend-mode: darken;
     border-radius: 10px;
     padding: 20px 20px;
-    transition: 0.5s ease-in-out;
+    transition: 1s ease-out;
+    cursor:pointer;
 }
+.new-box2:not(:hover) {
+    transition: 1s ease, color 1s ease; /* Set transition for background color and color */
+   
+   
+  }
+  .new-box3{
+    position: relative;
+    background-color: red;
+    width:100%;
+    height: 17rem;
+    background: rgba(73, 72, 72, 0.7)  url('images/digital-circle-circuit-blue-background-futuristic-technology.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+.new-box3:hover{
+    position: relative;
+    background-color: red;
+    width:100%;
+    height: 18rem;
+    background: rgba(73, 72, 72, 0.7) url('images/digital-circle-circuit-blue-background-futuristic-technology.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    border-radius: 10px;
+    padding: 20px 20px;
+    transition: 1s ease-out;
+    cursor:pointer;
+}
+.new-box3:not(:hover) {
+    transition: 1s ease, color 1s ease; /* Set transition for background color and color */
+   
+   
+  }
 .latest-box{
     position: absolute;
     bottom: 20px;
@@ -243,13 +307,43 @@ section.A{
 
 }
 .carousel{
-    border: 10px solid rgb(142, 196, 142);
+    border: 5px solid rgb(150, 173, 150);
     border-radius: 10px;
     background-color: rgb(142, 196, 142);
+
+    box-shadow: 10px 20px 50px -2px rgba(0, 0, 0, 0.5);
 }
 .intro-box{
-    max-width: 500px;
+    font-size: 0.9rem;
+     line-height: 1.5rem;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     
+    
+}
+p.Sub-Themes::before,.Main-Theme::before,.Convener::before,.date::before,.Venue::before{
+    content: "";
+    width: 20px;
+    height: 10px;
+    border: 2px solid rgb(142, 196, 142);
+    margin-right: 5px;
+}
+p.sub-Themes2::before{
+     content: "";
+    width: 20px;
+    height: 10px;
+    border-left: 2px solid rgb(21, 22, 21);
+    margin-right: 0px;
+
+    display: inline-block;
+}
+.venue-date{
+    max-width: 400px;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+   
 }
 /* end of intro section */
 
@@ -376,23 +470,34 @@ z-index: -10;
     background-color: rgb(41, 124, 41);
     transition: 0.3s ease-in-out;
 }
-.mad{
-    max-width: 546px;
+/* Event page */
+.intro-conference{
+    
+}
+.intro-header{
+    font-size: 1.3rem;
+}
+.body-text{
+    font-size: 0.9rem;
+    line-height:1.5rem ;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 .sevice-btn{
     display: inline;
 }
 .about-the-buisness{   
     color: white;
-    background-color: #0d6efd; 
+    background-color: rgb(41, 124, 41);
     font-weight: 400;
     font-family:Arial, Helvetica, sans-serif;
     transition: 0.5s ease-in-out;
-    border: 1px solid #0d6efd;;
+    border: 1px solid #339738;;
     height: 41px;
     border-radius: 4px;
     padding: 10px;
     font-size: 14px;
+    font-weight: 600;
 }
 
 
@@ -544,6 +649,9 @@ z-index: -10;
 
 }
 /*about us page*/
+.Presenter-detail{
+    font-size: medium;
+}
 .bluewe{
     color: #4046FF;
     font-size: 47px;
@@ -821,7 +929,16 @@ span.line2{
     height: 2px;
     border-top: 2px solid rgb(142, 196, 142);
     display: inline-block;
-    margin-bottom: 0px;
+    margin-bottom: 3px;
+    margin-right: 2px;
+}
+span.hyphen{
+    width: 15px;
+    height: 2px;
+    border-top: 2px solid rgb(10, 10, 10);
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-right: 2px;
 }
 h5{
     display: inline;
@@ -913,7 +1030,7 @@ a.in-touch{
 }
 
 .experienced{
-    border-left:4px solid #4046FF;
+    border-left:4px solid #599651;
     padding-left: 10px;
     border-radius: 5px;
     margin-bottom: 30px;
@@ -1481,6 +1598,14 @@ select {
 .mud2{
     text-align: center;
 }
+.venue-date{
+    max-width: none;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+   
+}
 
 }
 
@@ -1576,11 +1701,7 @@ select {
     .logo3{
         width: 30%;
     }
-    .trust{
-        
-        
-        line-height: 70px;
-    }
+   
    
    
     
