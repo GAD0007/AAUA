@@ -10,17 +10,21 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
   </head>
   <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+      <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+    </svg></button>
     <!--Navbar-->
+    <a href=""></a>
     <section class="A mb-5">
       <header>
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
-              <img
+              <!-- <img
                 src="images/von-logo (1).png"
                 alt="companylogo"
                 class="logo-web"
-              />
+              /> -->
             </a>
             <button
               class="navbar-toggler"
@@ -69,22 +73,26 @@
     </section>
     <section class="main-page">
       <div class="main-header container-fluid">
-        <div class="img-box">
+        <!-- <div class="img-box2">
           <img src="images/aaua-logo.jpg" alt="aaua-logo" class="logo-1-aaua">
          
-        </div>
+        </div> -->
+        <!-- <div class="img-box">
+          <img src="images/download.jpg" alt="humb-logo" class="logo-1-aaua">
+         
+        </div> -->
         <div class="row">
           <div class="space col-md-12 col-12 text-center pt-3 mt-5">
-            <span class="line"> </span>
-            <span class="intro1"> Welcome to </span>
+            <!-- <span class="line"> </span>
+            <span class="intro1"> Welcome to </span> -->
             <br class="break" />
             <div class="intro2">
-              <span class="vec-before"
+              <!-- <span class="vec-before"
                 ><img
                   src="images/Vector 16.png"
                   alt="vector"
                   class="vec-before2"
-              /></span>
+              /></span> -->
               AAUA
               <br class="break" />
               <span class="bluebuisness">Humboldt</span> Kolleg
@@ -98,14 +106,14 @@
               Envisioning the Future: Higher Education and Modern Technology in
               Agriculture, Science, Healthcare and Environment <br />
               <span class="event-date"> 23-26 October</span> <br>
-              <button type="button" class="btn1 btn-primary">
+             <!--  <button type="button" class="btn1 btn-primary">
                 Click here to know more about the event
                 <img
                   src="images/arrow-narrow-up-right.png"
                   alt="up-right"
                   class="up-right-png"
                 />
-              </button>
+              </button> -->
             </div>
           </div>
 
@@ -298,13 +306,10 @@
     <section class="D">
       <div class="container-fluid">
         <div class="row pt-5">
-          <div class="col-md-6 col-lg-6">
-            <img class="meeting3" src="images/Group 31.png" alt="meeting2" />
-          </div>
-          <div class="col-md-5 col-lg-6">
+          <div class="col-md-8 mx-auto">
             
-            <div class="whyy">
-              <h3 class="why-choose">
+            <div class="whyy text-center">
+              <h3 class="call-for">
                 CALL FOR ABSTRACT!!!
               </h3>
             </div>
@@ -719,5 +724,24 @@
       </div>
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script>// Get the button:
+      let mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }</script>
   </body>
 </html>
