@@ -54,7 +54,7 @@ section.A{
 .main-page{
     padding-left: 5vw;
     padding-right: 2vw;
-    background-color: rgb(64, 72, 100);
+    background-color: rgb(61, 78, 99);
     /* background: rgba(73, 72, 72, 0.7) url('images/33279.jpg'); */
     /* background: rgba(73, 72, 72, 0.7) url('images/global-connections.jpg'); */
     /* background-blend-mode: darken; */
@@ -88,7 +88,9 @@ section.A{
 
 .event-date{
     font-size: 1rem;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 1.5rem;
 }
 
 /* start of about us cards section*/
@@ -842,14 +844,14 @@ span.line{
 }
 .intro3{
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: rgb(63, 155, 67);
     font-size: 1.5rem;
     
   
 
 }
 .bluebuisness{
-    color: #4046FF;
+    color: #f7f7f7;
 }
 .redsuccess{
     color: rgb(221, 74, 74);
