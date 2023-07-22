@@ -2,7 +2,7 @@ body{
     width: 100%;
     height: auto;
     overflow-x: hidden;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(192, 188, 188);
 }
 .AAUA-NAME{
     height: 50px;
@@ -54,16 +54,33 @@ section.A{
 .main-page{
     padding-left: 5vw;
     padding-right: 2vw;
-    background-image: url('images/global-connections.jpg');
+    background: rgba(73, 72, 72, 0.7) url('images/global-connections.jpg');
+    background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     min-height: 440px;
     box-sizing: border-box ; 
     background-position: center;   
-    background-color: #000120;
+    
 }
-.main-header{}
+.main-header{
+    position: relative;
+}
+.img-box{
+    position:absolute;
+    top:5% ;
+    left: 96%;
+}
+
+.logo-1-aaua{
+    width: 4rem;
+    height: 5rem;
+}
+.event-date{
+    font-size: 1rem;
+    letter-spacing: 5px;
+}
 
 /* start of about us cards section*/
 
@@ -173,24 +190,8 @@ section.A{
     border-radius: 10px;
     padding: 20px 20px;
 }
-.new-box1:hover{
-    position: relative;
-    background-color: red;
-    width:100%;
-    height: 18rem;
-    background: rgba(73, 72, 72, 0.7) url('images/female-researchers-examined-tobacco-leaves.jpg');
-    background-size: cover;
-    background-blend-mode: darken;
-    border-radius: 10px;
-    padding: 20px 20px;
-    transition: 1s ease-out;
-    cursor:pointer;
-}
-.new-box1:not(:hover) {
-    transition: 1s ease, color 1s ease; /* Set transition for background color and color */
-   
-   
-  }
+
+
   .new-box2{
     position: relative;
     background-color: red;
@@ -202,24 +203,8 @@ section.A{
     border-radius: 10px;
     padding: 20px 20px;
 }
-.new-box2:hover{
-    position: relative;
-    background-color: red;
-    width:100%;
-    height: 18rem;
-    background: rgba(73, 72, 72, 0.7) url('images/microphone.jpg');
-    background-size: cover;
-    background-blend-mode: darken;
-    border-radius: 10px;
-    padding: 20px 20px;
-    transition: 1s ease-out;
-    cursor:pointer;
-}
-.new-box2:not(:hover) {
-    transition: 1s ease, color 1s ease; /* Set transition for background color and color */
-   
-   
-  }
+
+
   .new-box3{
     position: relative;
     background-color: red;
@@ -231,24 +216,8 @@ section.A{
     border-radius: 10px;
     padding: 20px 20px;
 }
-.new-box3:hover{
-    position: relative;
-    background-color: red;
-    width:100%;
-    height: 18rem;
-    background: rgba(73, 72, 72, 0.7) url('images/digital-circle-circuit-blue-background-futuristic-technology.jpg');
-    background-size: cover;
-    background-blend-mode: darken;
-    border-radius: 10px;
-    padding: 20px 20px;
-    transition: 1s ease-out;
-    cursor:pointer;
-}
-.new-box3:not(:hover) {
-    transition: 1s ease, color 1s ease; /* Set transition for background color and color */
-   
-   
-  }
+
+
 .latest-box{
     position: absolute;
     bottom: 20px;
@@ -298,6 +267,7 @@ section.A{
     
 }
 .green-text{
+    
     
 
 }
@@ -649,6 +619,17 @@ z-index: -10;
 
 }
 /*about us page*/
+.Goal-mission-background{
+    background: rgba(73, 72, 72, 0.7) url('./images/digital-circle-circuit-blue-background-futuristic-technology.jpg');
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
+    color: white;
+    
+    background-position: center;  
+}
 .Presenter-detail{
     font-size: medium;
 }
@@ -825,7 +806,7 @@ span.line{
     margin-bottom: 2px;
 }
 .intro1{
-    font-size: smaller;
+    font-size: 1rem;
     color: rgb(253, 248, 248);
 
 }
@@ -833,13 +814,10 @@ span.line{
     font-size: 48px;
     line-height: 50px;
     font-weight:600;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
     color: white;
 }
-.intro3{
-   color: red;
-   position: relative;
-}
+
 .intoduction-section{
 
 }
@@ -856,9 +834,9 @@ span.line{
 .intro3{
     font-weight: bold;
     color: rgb(255, 255, 255);
-    margin: 10px 0px;
-    font-size: 25px;
-    max-width: 500px;
+    font-size: 1.5rem;
+    
+  
 
 }
 .bluebuisness{
@@ -967,8 +945,10 @@ h3.gap{
     color:  rgb(142, 196, 142);
 }
 h3.why-choose{
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: bold;
+    color:  rgb(95, 97, 95);
+    
 }
 h3.discover{
     font-size: 48px;
@@ -1010,6 +990,7 @@ a.in-touch{
 section.D{
     margin-left:10vw ;
     margin-right:10vw;
+    
 }
 section.E{
     margin-left: 6vw;
@@ -1388,18 +1369,7 @@ select {
         border-radius: 10px;
         padding: 20px 20px;
     }
-    .new-box:hover{
-        position: relative;
-        background-color: red;
-        width:100%;
-        height: 19rem;
-        background: rgba(73, 72, 72, 0.7) url('images/microphone.jpg');
-        background-size: cover;
-        background-blend-mode: darken;
-        border-radius: 10px;
-        padding: 20px 20px;
-        transition: 0.3s ease-in-out;
-    }
+    
     .latest-box{
         position: absolute;
         bottom: 20px;
