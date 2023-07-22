@@ -90,7 +90,7 @@ section.A{
     font-size: 1rem;
     letter-spacing: 2px;
     color: white;
-    font-size: 1.9rem;
+    font-size: 2rem;
 }
 
 /* start of about us cards section*/
@@ -844,8 +844,8 @@ span.line{
 }
 .intro3{
     font-weight: bold;
-    color: rgb(245, 248, 245);
-    font-size: 1.9rem;
+    color: rgb(68, 156, 68);
+    font-size: 2rem;
     
   
 
