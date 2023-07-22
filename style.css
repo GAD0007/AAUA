@@ -70,13 +70,15 @@ section.A{
 .img-box{
     position:absolute;
     top:5% ;
-    left: 96%;
+    left: 86%;
 }
 
 .logo-1-aaua{
-    width: 4rem;
-    height: 5rem;
+    width: 6rem;
+    height: 7rem;
+    border-radius: 10px;
 }
+
 .event-date{
     font-size: 1rem;
     letter-spacing: 5px;
@@ -1358,6 +1360,11 @@ select {
 
 }
 @media screen and (max-width: 812px) {
+    .logo-1-aaua{
+    width: 4rem;
+    height: 5rem;
+    border-radius: 10px;
+}
     .new-box{
         position: relative;
         background-color: red;
@@ -1402,9 +1409,20 @@ select {
     .break{
         display: none;
     }
+    .logo-1-aaua{
+    width: 3rem;
+    height: 4rem;
+    border-radius: 10px;
+}
      
 }
 @media screen and (max-width: 490px) {
+    .img-box{
+    position:absolute;
+    top:2% ;
+    left: 80%;
+}
+    
     .latest-btn{
         background-color: rgb(142, 196, 142);
         border-radius: 5px;
@@ -1426,6 +1444,19 @@ select {
     }
 
 }
+@media screen and (max-width: 250px) {
+    .img-box{
+        position:absolute;
+        top:1% ;
+        left: 80%;
+    }
+    .logo-1-aaua{
+        width: 2rem;
+        height: 3rem;
+        border-radius: 10px;
+    }
+}
+
 @media screen and (max-width: 200px) {
     .new-box{
         position: relative;
@@ -1531,7 +1562,7 @@ select {
     text-align: center;
     }
 .experienced{
-    border-left:4px solid #4046FF;
+    border-left:4px solid #599651;
     padding-left: 10px;
     border-radius: 5px;
     margin-bottom: 30px;
@@ -1733,7 +1764,7 @@ select {
         margin-left: 9vw;
    }
    .experienced{
-    border-left:4px solid #4046FF;
+    border-left:4px solid #599651;
     padding-left: 10px;
     border-radius: 5px;
     margin-bottom: 30px;
