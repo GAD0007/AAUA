@@ -34,7 +34,17 @@ header.two{
 }
 
 
+.navava{
+    position: sticky;
+    top: 60px;
+    z-index: 111999;
+    background-color: #ffffff;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
 
+}
 section.A{
     height: auto;
     padding-top: 20px;
@@ -630,16 +640,15 @@ z-index: -10;
 
 }
 /*about us page*/
-.Goal-mission-background{
-    background: rgba(73, 72, 72, 0.7) url('./images/digital-circle-circuit-blue-background-futuristic-technology.jpg');
-    background-blend-mode: darken;
-    background-repeat: no-repeat;
-    background-size: cover;
+.empty-bgg{
+    /* background-image: url('./images/33279.jpg'); */
+    /* background-repeat: no-repeat; */
+ 
+    /* background-size: cover; */
     width: 100%;
-    min-height: 400px;
+    height: 400px;
     color: white;
     
-    background-position: center;  
 }
 .Presenter-detail{
     font-size: medium;
@@ -1621,6 +1630,17 @@ select {
 }
 
 @media screen and (max-width: 991px) {
+    .navava{
+        position: sticky;
+        top: 0px;
+        z-index: 111999;
+        background-color: #ffffff;
+        padding-left: 0vw;
+        padding-right: 0vw;
+        margin-left: 0vw;
+        margin-right: 0vw;
+    
+    }
     section.A{
         height: auto;
         padding-top: 20px;
