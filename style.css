@@ -33,17 +33,50 @@ header.two{
     outline: none!important;
 }
 
+.event-body{
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #f0ebeb;
+    padding: 10px 10px;
+}
 
+.button-box{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center; /* Centers along the main axis (horizontally) */
+    align-items: center;
+    position: sticky;
+    top: 50px;
+    background-color: #808080;
+    z-index: 100;
+}
+.btn-event{
+    width:auto;
+    height: auto;
+    padding: 10px 10px;
+    background-color: #f8f7f6;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    font-weight: 600;
+    color: black;
+}
+.green-head{
+    color: #599651;
+    font-weight: 800;
+    font-size: 1rem;
+}
 .navava{
     position: sticky;
-    top: 60px;
+    top: 50px;
     z-index: 111999;
     background-color: #ffffff;
     padding-left: 0vw;
     padding-right: 0vw;
     margin-left: 0vw;
     margin-right: 0vw;
-
+    padding:20px 0px ;
 }
 section.A{
     height: auto;
@@ -54,6 +87,33 @@ section.A{
     top: -20px;
     z-index: 999;
     
+}
+.offcanvas{
+    height: 200px;
+    margin-top: 200px;
+    
+}
+.floating-contact{
+    position: fixed;
+    color: rgb(250, 249, 249);
+    border: 2px solid  rgb(142, 196, 142);
+    background-color: rgb(142, 196, 142);
+    border-radius: 40px;
+    width: 40px;
+    padding-left: 10px;
+    padding-top: 5px;
+    height: 40px;
+    top: 505px;
+    right: 100px;
+    z-index: 10000000;
+
+}
+.floating-contact:hover{
+    color: rgb(250, 249, 249);
+    border: 2px solid  rgb(142, 196, 142);
+    background-color: rgb(119, 60, 12);
+    
+
 }
 
 .logo-web{
@@ -312,12 +372,22 @@ section.A{
     
     
 }
-p.Sub-Themes::before,.Main-Theme::before,.Convener::before,.date::before,.Venue::before{
+/* p.Sub-Themes::before,.Main-Theme::before,.Convener::before,.date::before,.Venue::before{
     content: "";
     width: 20px;
     height: 10px;
     border: 2px solid rgb(142, 196, 142);
     margin-right: 5px;
+} */
+.green-icon{
+    margin-right: 5px;
+    bottom: 2px;
+    position: relative;
+}
+.green-icon-box{
+    margin-right: 5px;
+    bottom: 2px;
+    position: relative;
 }
 p.sub-Themes2::before{
      content: "";
@@ -462,6 +532,55 @@ z-index: -10;
     transition: 0.3s ease-in-out;
 }
 /* Event page */
+#introduction.nav-link{
+    border: 1px solid black;
+    font-weight: 600;
+    color: black;
+
+}
+#goals.nav-link{
+    border: 1px solid black;
+    font-weight: 600;
+    color: black;
+    
+}
+#target-participants.nav-link{
+    border: 1px solid black;
+    font-weight: 600;
+    color: black;
+}
+#general-info.nav-link{
+    border: 1px solid black;
+    font-weight: 600;
+    color: black;
+}
+#introduction.active{
+    background-color: rgb(142, 196, 142);
+    border: 1px solid rgb(142, 196, 142);
+    color: white;
+
+}
+
+#goals.active{
+    background-color: rgb(142, 196, 142);
+    border: 1px solid rgb(142, 196, 142);
+    color: white;
+
+}
+#target-participants.active{
+    background-color: rgb(142, 196, 142);
+    border: 1px solid rgb(142, 196, 142);
+    color: white;
+
+}
+#general-info.active{
+    background-color: rgb(142, 196, 142);
+    border: 1px solid rgb(142, 196, 142);
+    color: white;
+
+}
+
+
 .intro-conference{
     
 }
@@ -1384,6 +1503,17 @@ select {
     height: 5rem;
     border-radius: 10px;
 }
+.event-body{
+    font-size: 0.8rem;
+    font-weight: 500;
+    background-color: #f0ebeb;
+    padding: 10px 10px;
+}
+.green-head{
+    color: #599651;
+    font-weight: 800;
+    font-size: 0.8rem;
+}
     .new-box{
         position: relative;
         background-color: red;
@@ -1408,6 +1538,32 @@ select {
     
 
 }
+@media screen and (max-width: 630px) {
+    .button-box{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center; /* Centers along the main axis (horizontally) */
+        align-items: center;
+        position: sticky;
+       
+        background-color: #808080;
+        z-index: 100;
+    }
+    .btn-event{
+        max-width:40%;
+        min-height: 30%;
+        padding: 10px 10px;
+        background-color: #f8f7f6;
+        color: black;
+        text-decoration: none;
+        border: 1px solid black;
+        font-weight: 600;
+        color: black;
+        font-size: 0.6rem;
+    }
+}
+
 
 @media screen and (max-width: 570px) {
     .visi1{
@@ -1460,6 +1616,29 @@ select {
     .about-us-cards{
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+    .button-box{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center; /* Centers along the main axis (horizontally) */
+        align-items: center;
+        position: sticky;
+       
+        background-color: #808080;
+        z-index: 100;
+    }
+    .btn-event{
+        max-width:40%;
+        min-height: 30%;
+        padding: 2px 2px;
+        background-color: #f8f7f6;
+        color: black;
+        text-decoration: none;
+        border: 1px solid black;
+        font-weight: 600;
+        color: black;
+        font-size: 0.6rem;
     }
 
 }
@@ -1640,6 +1819,17 @@ select {
         margin-left: 0vw;
         margin-right: 0vw;
     
+    }
+    .button-box{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center; /* Centers along the main axis (horizontally) */
+        align-items: center;
+        position: sticky;
+        top: 0px;
+        background-color: #808080;
+        z-index: 100;
     }
     section.A{
         height: auto;
