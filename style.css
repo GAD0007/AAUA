@@ -48,7 +48,7 @@ header.two{
     align-items: center;
     position: sticky;
     top: 50px;
-    background-color:rgb(235, 193, 116);
+    background-color:rgb(255, 255, 254);
     z-index: 100;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -67,6 +67,13 @@ header.two{
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
+}
+.btn-event:hover{
+    
+    background-color: #38364e;
+    color: white;
+    transition: 0.4s ease-out;
+    
 }
 .green-head{
     color: #599651;
@@ -94,8 +101,12 @@ section.A{
     z-index: 999;
     
 }
+.offcanvas-title{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
 .offcanvas{
-    height: 200px;
+    height: auto;
     margin-top: 200px;
     
 }
@@ -144,7 +155,7 @@ section.A{
     
 }
 .line-box{
-    border: 1px solid red;
+    border: 2px solid red;
     padding: 10px;
 }
 .green-date{
@@ -792,7 +803,7 @@ z-index: -10;
  
     /* background-size: cover; */
     width: 100%;
-    height: 400px;
+  
     color: white;
     
 }
@@ -822,8 +833,8 @@ z-index: -10;
     
 }
 .google-form{
-    width: 200px;
-   font-size: 1rem;
+   display: inline;
+   font-size: 0.9rem;
 }
 section.team-members{
     margin-left: 5vw;
@@ -1165,8 +1176,9 @@ a.in-touch{
 }
 
 section.D{
-    margin-left:10vw ;
-    margin-right:10vw;
+    padding-left:10vw ;
+    padding-right:10vw;
+    background-color:#EEF1FC;
     
 }
 section.E{
@@ -1188,8 +1200,9 @@ a.in-touch{
 }
 
 .experienced{
-    border-left:4px solid #599651;
-    padding-left: 10px;
+    border-left:4px solid #86c07e;
+    border-right:4px solid #86c07e;
+    padding:10px;
     border-radius: 5px;
     margin-bottom: 30px;
     margin-top: 20px;
@@ -1197,6 +1210,15 @@ a.in-touch{
    
    
 }
+.dev-details{
+   
+}
+.impo-date{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 0.9rem;
+}
+
 
 
 .meeting{
@@ -1646,8 +1668,8 @@ select {
         z-index: 100;
     }
     .btn-event{
-        max-width:40%;
-        min-height: 30%;
+        max-width:30%;
+        min-height: 40%;
         padding: 10px 10px;
         background-color: #f8f7f6;
         color: black;
@@ -1687,6 +1709,18 @@ select {
     position:absolute;
     top:1% ;
     left: 75%;
+}
+.btn-event{
+    max-width:22%;
+    min-height: 40%;
+    padding: 10px 10px;
+    background-color: #f8f7f6;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    font-weight: 600;
+    color: black;
+    font-size: 0.6rem;
 }
     
     .latest-btn{
@@ -1856,18 +1890,7 @@ select {
     
     text-align: center;
     }
-.experienced{
-    border-left:4px solid #599651;
-    padding-left: 10px;
-    border-radius: 5px;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    box-shadow: 3px 4px 36px -17px rgba(0, 0, 0, 0.25);
-    max-width: 340px;
-   
-    margin-left: auto;
-    margin-right: auto;
-   }
+
    .technique{
     font-size: 30px;
     font-weight: 700;
@@ -1925,7 +1948,7 @@ select {
         justify-content: center; /* Centers along the main axis (horizontally) */
         align-items: center;
         position: sticky;
-        top: 0px;
+        top: 55px;
        
         z-index: 100;
     }
@@ -1934,9 +1957,9 @@ select {
         padding-top: 20px;
         padding-left: 0vw;
         padding-right: 0vw;
-        position: relative;
-        margin-bottom: 0px !important;
-    
+        position: sticky;
+        top: -20px;
+        z-index: 999;
         
     }
     h3.call-for{
@@ -1972,7 +1995,7 @@ select {
         margin-bottom: 100px;
     }
     header{
-        margin-bottom: 0px;
+        margin-bottom: 20px;
         z-index: 1000;   
         
     } 
@@ -2051,14 +2074,7 @@ select {
 @media screen and (min-width: 1500px) {
 
     
-    section.A{
-    
-       
-        height: auto;
-        padding-top: 40px;
-        padding-left: 8vw;
-        padding-right: 8vw;
-    }
+ 
     
     .calm{
         margin-right: 10vw;
@@ -2083,16 +2099,7 @@ select {
     .loww{
         margin-left: 9vw;
    }
-   .experienced{
-    border-left:4px solid #599651;
-    padding-left: 10px;
-    border-radius: 5px;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    box-shadow: 3px 4px 36px -17px rgba(0, 0, 0, 0.25);
-    max-width: none;
-    min-width: none;
-}
+  
 
 }
 @media screen and (max-width: 1200px) {
