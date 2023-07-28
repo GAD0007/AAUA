@@ -821,8 +821,7 @@ z-index: -10;
     /* color: white; */
     /* background-color: #e1e1e7; */
     position: relative;
-    background-color: 
-    rgb(255, 255, 255);
+    background-color: rgb(245, 247, 250);
     
 }
 .Presenter-detail{
@@ -929,10 +928,13 @@ section.brand-rep{
 .call-for-abstract-main{
     padding-left: 3vw;
     padding-right:3vw ;
+    padding-top: 5vw;
+    position: relative;
+    background-color: rgb(245, 247, 250);
 }
 .abstract-dets{
     color: rgb(29, 28, 28);
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 600;
 }
 
@@ -1079,7 +1081,7 @@ span.line{
     transition: 0.5s ease-in-out;
     margin-top:12px ;
     margin-bottom: 20px;
-    animation: blink 3s infinite; /* Blink animation lasting 1 second, infinite repetitions */
+    /* Blink animation lasting 1 second, infinite repetitions */
 }
 @keyframes blink {
   0% { opacity: 1; } /* Starting point, fully visible */
@@ -1239,7 +1241,7 @@ a.in-touch{
     padding:10px;
     border-radius: 5px;
     margin-bottom: 30px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     box-shadow: 3px 4px 36px -17px rgba(0, 0, 0, 0.25);
    
    
@@ -1495,9 +1497,11 @@ footer2{
   
 }
 .contact-page{
-  
+     padding-top: 100px;
     padding-left: 8vw;
     padding-right: 8vw;
+    background-color: rgb(245, 247, 250);
+    position: relative;
 }
 .page{
     height: 550px;
@@ -1569,6 +1573,11 @@ select {
  
   option:hover {
     background-color: yellow;
+  }
+  label[for="postal-or-oral"],label[for="are you presenting"],label[for="institution"],label[for="surname"],label[for="firstname"],label[for="yesOption"]{
+    color: rgb(17, 17, 17);
+    font-weight: 500;
+
   }
 
  /*end of contact page*/
@@ -1653,6 +1662,12 @@ select {
 
 }
 @media screen and (max-width: 523px) {
+    .call-for-abstract-main{
+        padding-left: 3vw;
+        padding-right:3vw ;
+        padding-top: 8vw;
+        position: relative;
+    }
   
     }
     @media screen and (min-width: 637px) {
@@ -1662,6 +1677,9 @@ select {
         }
     }
 @media screen and (max-width: 637px) {
+    .who-are-we{
+        font-size: 100%;
+    } 
     .green-topic{
         color: rgb(201, 190, 38);
         font-size: 100%;
@@ -1781,6 +1799,12 @@ select {
      
 }
 @media screen and (max-width: 490px) {
+    .call-for-abstract-main{
+        padding-left: 3vw;
+        padding-right:3vw ;
+        padding-top: 8vw;
+        position: relative;
+    }
     .img-box{
     position:absolute;
     top:1% ;
@@ -1838,6 +1862,12 @@ select {
     position:absolute;
     top:1% ;
     left: 65%;
+}
+.call-for-abstract-main{
+    padding-left: 3vw;
+    padding-right:3vw ;
+    padding-top: 8vw;
+    position: relative;
 }
 }
 @media screen and (max-width: 300px) {
@@ -1919,7 +1949,7 @@ select {
         padding:10px;
         border-radius: 5px;
         margin-bottom: 30px;
-        margin-top: 20px;
+        /* margin-top: 20px; */
         box-shadow: 3px 4px 36px -17px rgba(0, 0, 0, 0.25);
         margin-left: 4vw;
         margin-right: 4vw;
