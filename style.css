@@ -189,6 +189,11 @@ section.A{
     top:-1% ;
     left: 80%;
 }
+.img-box6{
+    position:absolute;
+    top:-1% ;
+    left: 80%;
+}
 
 .logo-1-aaua{
     width: 6rem;
@@ -1827,6 +1832,11 @@ select {
     top:0% ;
     left: 58% !important;
 }
+.img-box6{
+    position:absolute;
+    top:-1% ;
+    left: 60% !important;
+}
 }
 
 @media screen and (max-width: 490px) {
@@ -1899,6 +1909,11 @@ select {
     position:absolute;
     top:-1% ;
     left: 50%;
+}
+.img-box6{
+    position:absolute;
+    top:-1% ;
+    left: 55% !important;
 }
 .call-for-abstract-main{
     padding-left: 3vw;
@@ -2124,6 +2139,11 @@ select {
 .img-box5{
     position:absolute;
     top:0% ;
+    left: 65%;
+}
+.img-box6{
+    position:absolute;
+    top:-1% ;
     left: 65%;
 }
 
