@@ -166,7 +166,7 @@ section.A{
 }
 .img-box{
     position:absolute;
-    top:1% ;
+    top:-3% ;
     left: 80%;
 }
 .img-box2{
@@ -181,7 +181,12 @@ section.A{
 }
 .img-box4{
     position:absolute;
-    top:1% ;
+    top:-3% ;
+    left: 80%;
+}
+.img-box5{
+    position:absolute;
+    top:-1% ;
     left: 80%;
 }
 
@@ -192,7 +197,7 @@ section.A{
 }
 .logo-2-aaua{
     width: 10rem;
-    height: 4rem;
+    height: 6rem;
     border-radius: 10px;
 }
 
@@ -1504,7 +1509,8 @@ footer2{
     position: relative;
 }
 .page{
-    height: 550px;
+    height: auto;
+    padding-bottom: 50px;
 }
 .free-consultation{
 
@@ -1515,6 +1521,7 @@ font-weight: 500;
 
 
 }
+/* form on online registration */
 label{
     color: blue;
 }
@@ -1532,7 +1539,7 @@ textarea.form-control:focus {
 .input-group input:focus {
     outline: none;
   }
-#Fullname,#Email,#inputState:focus{
+#Firstname,#surname,#institution,#Title,#inputState,#email,#date-full-paper,#postal-or-oral,#Presenting-author:focus{
     outline: none;
     box-shadow: none;
     border: 1px solid #D8D8D8
@@ -1574,13 +1581,14 @@ select {
   option:hover {
     background-color: yellow;
   }
-  label[for="postal-or-oral"],label[for="are you presenting"],label[for="institution"],label[for="surname"],label[for="firstname"],label[for="yesOption"]{
+  label[for="postal-or-oral"],label[for="Team"],label[for="institution"],label[for="email"],label[for="surname"],label[for="firstname"],label[for="Title"],label[for="Theme"],label[for="Presenting-author"],label[for="Arrival"],label[for="Departure"],label[for="date-full-paper"],label[for="accomodation"],label[for="Abstract"]{
     color: rgb(17, 17, 17);
     font-weight: 500;
 
   }
 
  /*end of contact page*/
+ /* end of form on online registration */
 
 
 
@@ -1598,7 +1606,7 @@ select {
      }
      .img-box{
         position:absolute;
-        top:1% ;
+        top:-3% ;
         left: 75%;
     }
     .img-box3{
@@ -1612,7 +1620,7 @@ select {
  
 .img-box{
     position:absolute;
-    top:1% ;
+    top:-3% ;
     left: 70%;
 }
 .img-box3{
@@ -1622,8 +1630,13 @@ select {
 }
 .img-box4{
     position:absolute;
-    top:1% ;
-    left: 73%;
+    top:-3% ;
+    left: 70%;
+}
+.img-box5{
+    position:absolute;
+    top:-1% ;
+    left: 70%;
 }
 
 .event-body{
@@ -1729,14 +1742,14 @@ select {
     border-radius: 10px;
 }
 .logo-2-aaua{
-    width: 5rem;
-    height: 4rem;
+    width: 9rem;
+    height: 6rem;
     border-radius: 10px;
 }
 .img-box{
     position:absolute;
-    top:1% ;
-    left: 80%;
+    top:-3% ;
+    left: 65%;
 }
 .img-box3{
     position:absolute;
@@ -1745,8 +1758,13 @@ select {
 }
 .img-box4{
     position:absolute;
-    top:1% ;
-    left: 78%;
+    top:-3% ;
+    left: 65%;
+}
+.img-box5{
+    position:absolute;
+    top:-1% ;
+    left: 65%;
 }
 }
 @media screen and (max-width: 630px) {
@@ -1780,6 +1798,11 @@ select {
     .visi1{
         display: none;
     }
+    .logo-2-aaua{
+        width: 8rem;
+        height: 5rem;
+        border-radius: 10px;
+    }
     
 
 }
@@ -1798,6 +1821,14 @@ select {
    
      
 }
+@media screen and (max-width: 400px)  {
+.img-box5{
+    position:absolute;
+    top:0% ;
+    left: 58% !important;
+}
+}
+
 @media screen and (max-width: 490px) {
     .call-for-abstract-main{
         padding-left: 3vw;
@@ -1807,8 +1838,8 @@ select {
     }
     .img-box{
     position:absolute;
-    top:1% ;
-    left: 75%;
+    top:-3% ;
+    left: 55%;
 }
 .img-box3{
     position:absolute;
@@ -1817,9 +1848,10 @@ select {
 }
 .img-box4{
     position:absolute;
-    top:1% ;
-    left: 70%;
+    top:-3% ;
+    left: 55%;
 }
+
 .btn-event{
     max-width:22%;
     min-height: 40%;
@@ -1850,8 +1882,8 @@ select {
 @media screen and (max-width: 368px) {
 .img-box{
     position:absolute;
-    top:1% ;
-    left: 65%;
+    top:-3% ;
+    left: 50%;
 }
 .img-box3{
     position:absolute;
@@ -1860,8 +1892,13 @@ select {
 }
 .img-box4{
     position:absolute;
-    top:1% ;
-    left: 65%;
+    top:-3% ;
+    left: 50%;
+}
+.img-box5{
+    position:absolute;
+    top:-1% ;
+    left: 50%;
 }
 .call-for-abstract-main{
     padding-left: 3vw;
@@ -1870,7 +1907,25 @@ select {
     position: relative;
 }
 }
+@media screen and (max-width: 330px) {
+.line-box{
+    border: none;
+    padding: 10px;
+}
+.intro2{
+    font-size: 100%;
+    line-height: 30px;
+    font-weight:600;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(89, 167, 113);
+}
+}
 @media screen and (max-width: 300px) {
+    .logo-2-aaua{
+        width: 6rem;
+        height: 5rem;
+        border-radius: 10px;
+    }
     .about-us-cards{
         margin-left: 1rem;
         margin-right: 1rem;
@@ -1903,8 +1958,8 @@ select {
 @media screen and (max-width: 250px) {
     .img-box{
         position:absolute;
-        top:1% ;
-        left: 60%;
+        top:-3% ;
+        left: 50%;
     }
     .email-msg{
         font-size: 10px;
@@ -2065,6 +2120,11 @@ select {
     font-weight: 500;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
    
+}
+.img-box5{
+    position:absolute;
+    top:0% ;
+    left: 65%;
 }
 
 }
