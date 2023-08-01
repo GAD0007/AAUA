@@ -110,6 +110,9 @@ section.A{
     margin-top: 200px;
     
 }
+.note-note{
+    color: green;
+}
 .floating-contact{
     /* position: fixed; */
     color: rgb(250, 249, 249);
@@ -166,13 +169,19 @@ section.A{
 }
 .img-box{
     position:absolute;
-    top:-3% ;
-    left: 80%;
+    top:-7% ;
+    left: 77%;
 }
+/* .space{
+   position: relative;
+  
+   margin-top: 200px;
+
+} */
 .img-box2{
     position:absolute;
     top:1% ;
-    left: 4%;
+    left: 0%;
 }
 .img-box3{
     position:absolute;
@@ -181,28 +190,30 @@ section.A{
 }
 .img-box4{
     position:absolute;
-    top:-3% ;
+    top:-9% ;
     left: 80%;
 }
 .img-box5{
     position:absolute;
-    top:-1% ;
+    top:-3% ;
     left: 80%;
 }
 .img-box6{
     position:absolute;
-    top:-1% ;
+    top:-8% ;
     left: 80%;
 }
-
+.event-main-body{
+    margin-top: 140px;
+}
 .logo-1-aaua{
-    width: 6rem;
-    height: 4rem;
+    width: 10rem;
+    height: 8rem;
     border-radius: 10px;
 }
 .logo-2-aaua{
-    width: 10rem;
-    height: 6rem;
+    width: 13rem;
+    height: 12rem;
     border-radius: 10px;
 }
 
@@ -938,7 +949,7 @@ section.brand-rep{
 .call-for-abstract-main{
     padding-left: 3vw;
     padding-right:3vw ;
-    padding-top: 5vw;
+    padding-top: 10vw;
     position: relative;
     background-color: rgb(245, 247, 250);
 }
@@ -1049,6 +1060,7 @@ span.line{
     font-weight:600;
     font-family:Arial, Helvetica, sans-serif;
     color: rgb(89, 167, 113);
+    margin-top: 120px;
 }
 
 .intoduction-section{
@@ -1507,7 +1519,7 @@ footer2{
   
 }
 .contact-page{
-     padding-top: 100px;
+     padding-top: 170px;
     padding-left: 8vw;
     padding-right: 8vw;
     background-color: rgb(245, 247, 250);
@@ -1544,7 +1556,7 @@ textarea.form-control:focus {
 .input-group input:focus {
     outline: none;
   }
-#Firstname,#surname,#institution,#Title,#inputState,#email,#date-full-paper,#postal-or-oral,#Presenting-author:focus{
+#Firstname,#surname,#institution,#Title,#inputState,#email,#date-full-paper,#poster-or-oral,#Presenting-author:focus{
     outline: none;
     box-shadow: none;
     border: 1px solid #D8D8D8
@@ -1586,7 +1598,7 @@ select {
   option:hover {
     background-color: yellow;
   }
-  label[for="postal-or-oral"],label[for="Team"],label[for="institution"],label[for="email"],label[for="surname"],label[for="firstname"],label[for="Title"],label[for="Theme"],label[for="Presenting-author"],label[for="Arrival"],label[for="Departure"],label[for="date-full-paper"],label[for="accomodation"],label[for="Abstract"]{
+  label[for="poster-or-oral"],label[for="Team"],label[for="institution"],label[for="email"],label[for="surname"],label[for="firstname"],label[for="Title"],label[for="Theme"],label[for="Presenting-author"],label[for="Arrival"],label[for="Departure"],label[for="date-full-paper"],label[for="accomodation"],label[for="Abstract"]{
     color: rgb(17, 17, 17);
     font-weight: 500;
 
@@ -1609,11 +1621,12 @@ select {
      
      
      }
-     .img-box{
+   
+     /* .img-box{
         position:absolute;
-        top:-3% ;
-        left: 75%;
-    }
+        top:-7% ;
+        left: 82%;
+    } */
     .img-box3{
         position:absolute;
         top:1%;
@@ -1621,13 +1634,15 @@ select {
     }
 
 }
+
 @media screen and (max-width: 812px) {
  
-.img-box{
+/* .img-box{
     position:absolute;
     top:-3% ;
     left: 70%;
-}
+} */
+
 .img-box3{
     position:absolute;
     top:1% ;
@@ -1641,7 +1656,7 @@ select {
 .img-box5{
     position:absolute;
     top:-1% ;
-    left: 70%;
+    left: 65% !important;
 }
 
 .event-body{
@@ -1693,6 +1708,15 @@ select {
             font-size: 120%;
             margin-top: 20px;
         }
+        .intro2{
+            font-size: 2.5rem;
+            line-height: 50px;
+            font-weight:600;
+            font-family:Arial, Helvetica, sans-serif;
+            color: rgb(89, 167, 113);
+            /* margin-top: 200px; */
+        }
+
     }
 @media screen and (max-width: 637px) {
     .who-are-we{
@@ -1712,7 +1736,12 @@ select {
         
     }
     .event-main-body{
-        margin-top: 80px;
+        margin-top: 100px;
+    }
+    .img-box6{
+        position:absolute;
+        top:-1% !important;
+        left:  70% !important;
     }
 .intro2{
     font-size: 120%;
@@ -1720,6 +1749,7 @@ select {
     font-weight:600;
     font-family:Arial, Helvetica, sans-serif;
     color: rgb(89, 167, 113);
+     margin-top: 60px;
    
 }
 .intro3,.green-date,.event-date{
@@ -1753,26 +1783,28 @@ select {
 }
 .img-box{
     position:absolute;
-    top:-3% ;
-    left: 65%;
+    top:-5% !important ;
+    left: 70% !important;
 }
 .img-box3{
     position:absolute;
-    top:1% ;
+    top:2% ;
     left: 4%;
 }
 .img-box4{
     position:absolute;
-    top:-3% ;
-    left: 65%;
+    top:-3% !important;
+    left: 72%!important;
 }
 .img-box5{
     position:absolute;
-    top:-1% ;
-    left: 65%;
+    top:0% !important ;
+    left: 63% !important;
 }
+
 }
 @media screen and (max-width: 630px) {
+    
     .button-box{
         display: flex;
         margin-left: auto;
@@ -1803,11 +1835,7 @@ select {
     .visi1{
         display: none;
     }
-    .logo-2-aaua{
-        width: 8rem;
-        height: 5rem;
-        border-radius: 10px;
-    }
+  
     
 
 }
@@ -1832,13 +1860,92 @@ select {
     top:0% ;
     left: 58% !important;
 }
-.img-box6{
-    position:absolute;
-    top:-1% ;
-    left: 60% !important;
-}
-}
 
+}
+@media screen and (max-width: 530px)  {
+    .img-box{
+        position:absolute;
+        top:-7% ;
+        left: 66% !important;
+    }
+    }
+    @media screen and (max-width: 543px)  {
+        .img-box{
+            position:absolute;
+            top:-7% ;
+            left: 60% !important;
+        }
+        }
+        @media screen and (max-width: 386px)  {
+            .img-box{
+                position:absolute;
+                top:-7% ;
+                left: 57% !important;
+            }
+            }
+            @media screen and (max-width: 340px)  {
+                .img-box{
+                    position:absolute;
+                    top:-7% ;
+                    left: 52% !important;
+                }
+                }
+                @media screen and (max-width: 517px) {
+                    .img-box4{
+                        position:absolute;
+                        top:-4% !important ;
+                        left: 69% !important;
+                    }
+
+                }
+                @media screen and (max-width: 480px) {
+                    .img-box4{
+                        position:absolute;
+                        top:-4% !important ;
+                        left: 65% !important;
+                    }
+                    .img-box6{
+                        position:absolute;
+                        top:-1% !important;
+                        left:  65% !important;
+                    }
+                 
+
+                }
+                @media screen and (max-width: 430px) {
+                    .img-box4{
+                        position:absolute;
+                        top:-4% !important ;
+                        left: 62% !important;
+                    }
+                    .img-box6{
+                        position:absolute;
+                        top:-1% !important;
+                        left:  60% !important;
+                    }
+
+                }
+                @media screen and (max-width: 371px) {
+                    .img-box4{
+                        position:absolute;
+                        top:-4% !important ;
+                        left: 58% !important;
+                    }
+                    .img-box6{
+                        position:absolute;
+                        top:-1% !important;
+                        left:  55% !important;
+                    }
+
+                }
+                @media screen and (max-width: 371px) {
+                    .img-box4{
+                        position:absolute;
+                        top:-4% !important ;
+                        left: 54% !important;
+                    }
+
+                }
 @media screen and (max-width: 490px) {
     .call-for-abstract-main{
         padding-left: 3vw;
@@ -1846,21 +1953,21 @@ select {
         padding-top: 8vw;
         position: relative;
     }
-    .img-box{
+    /* .img-box{
     position:absolute;
     top:-3% ;
     left: 55%;
-}
+} */
 .img-box3{
     position:absolute;
-    top:1% ;
+    top:2% ;
     left: 4%;
 }
-.img-box4{
+/* .img-box4{
     position:absolute;
     top:-3% ;
     left: 55%;
-}
+} */
 
 .btn-event{
     max-width:22%;
@@ -1890,11 +1997,11 @@ select {
      
 }
 @media screen and (max-width: 368px) {
-.img-box{
+/* .img-box{
     position:absolute;
     top:-3% ;
     left: 50%;
-}
+} */
 .img-box3{
     position:absolute;
     top:1% ;
@@ -1908,13 +2015,9 @@ select {
 .img-box5{
     position:absolute;
     top:-1% ;
-    left: 50%;
+    left: 50% !important;
 }
-.img-box6{
-    position:absolute;
-    top:-1% ;
-    left: 55% !important;
-}
+
 .call-for-abstract-main{
     padding-left: 3vw;
     padding-right:3vw ;
@@ -1922,6 +2025,7 @@ select {
     position: relative;
 }
 }
+
 @media screen and (max-width: 330px) {
 .line-box{
     border: none;
@@ -1934,11 +2038,21 @@ select {
     font-family:Arial, Helvetica, sans-serif;
     color: rgb(89, 167, 113);
 }
+.img-box6{
+    position:absolute;
+    top:-1% !important;
+    left:  50% !important;
+}
 }
 @media screen and (max-width: 300px) {
+    .img-box6{
+        position:absolute;
+        top:-1% !important;
+        left:  50% !important;
+    }
     .logo-2-aaua{
-        width: 6rem;
-        height: 5rem;
+        width: 7rem;
+        height: 6rem;
         border-radius: 10px;
     }
     .about-us-cards{
@@ -1971,11 +2085,11 @@ select {
 
 }
 @media screen and (max-width: 250px) {
-    .img-box{
+    /* .img-box{
         position:absolute;
         top:-3% ;
         left: 50%;
-    }
+    } */
     .email-msg{
         font-size: 10px;
         width: 100%;
@@ -2012,7 +2126,16 @@ select {
     
 
 }
+
 @media screen and (max-width: 766px) {
+    .call-for-abstract-main{
+        padding-left: 3vw;
+        padding-right:3vw ;
+        padding-top: 15vw !important;
+        position: relative;
+        background-color: rgb(245, 247, 250);
+    }
+    
     .experienced{
         border-left:4px solid #86c07e;
         border-right:4px solid #86c07e;
@@ -2138,14 +2261,10 @@ select {
 }
 .img-box5{
     position:absolute;
-    top:0% ;
+    top:1% ;
     left: 65%;
 }
-.img-box6{
-    position:absolute;
-    top:-1% ;
-    left: 65%;
-}
+
 
 }
 
@@ -2201,9 +2320,9 @@ select {
         text-align: center;
       }
     .contact-page{
-  
-        padding-left: 0vw;
-        padding-right: 0vw;
+        padding-top: 140px;
+        padding-left: 2vw;
+        padding-right: 2vw;
     }
     .middle{
         text-align: center;
@@ -2269,6 +2388,75 @@ select {
     
 
 }
+@media screen and (max-width: 1050px) {
+    .call-for-abstract-main{
+        padding-left: 3vw;
+        padding-right:3vw ;
+        padding-top: 12vw;
+        position: relative;
+        background-color: rgb(245, 247, 250);
+    }
+.img-box{
+    position:absolute;
+    top:-7% ;
+    left: 72%;
+}
+.img-box4{
+    position:absolute;
+    top:-9% ;
+    left: 76%;
+}
+.img-box6{
+    position:absolute;
+    top:-7% ;
+    left: 77%;
+}
+.img-box5{
+    position:absolute;
+    top:-3% ;
+    left: 73%;
+}
+}
+@media screen and (max-width: 920px) {
+.img-box6{
+    position:absolute;
+    top:-5% ;
+    left: 65%;
+}
+.call-for-abstract-main{
+    padding-left: 3vw;
+    padding-right:3vw ;
+    padding-top: 15vw;
+    position: relative;
+    background-color: rgb(245, 247, 250);
+}
+}
+@media screen and (max-width: 858px) {
+    .img-box{
+        position:absolute;
+        top:-7% ;
+        left: 67%;
+    }
+    .img-box4{
+        position:absolute;
+        top:-9% ;
+        left: 72%;
+    }
+}
+@media screen and (max-width: 770px) {
+.img-box{
+    position:absolute;
+    top:-7% ;
+    left: 65%;
+
+}
+.img-box4{
+    position:absolute;
+    top:-9% ;
+    left: 67%;
+}
+}
+
 @media screen and (min-width: 1400px) {
     .recent-articles,.recent-articles2{
         padding-left: 8vw;
