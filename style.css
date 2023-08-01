@@ -291,10 +291,7 @@ section.A{
    
 }
 
-.btn-itself:hover{
-    
 
-}
 .btn-itself{
     background-color: rgb(142, 196, 142);
     border-radius: 5px;
@@ -419,11 +416,7 @@ section.A{
     color: rgb(201, 190, 38);
    
 }
-.green-text{
-    
-    
 
-}
 .intoduction-section{
     margin-left: 2vw;
     margin-right: 2vw;
@@ -580,8 +573,7 @@ z-index: -10;
 }
 
 
-.collapses{
-}
+
 .illustration{
     z-index: 999;
 }
@@ -653,9 +645,7 @@ z-index: -10;
 }
 
 
-.intro-conference{
-    
-}
+
 .intro-header{
     font-size: 1.3rem;
 }
@@ -1063,9 +1053,7 @@ span.line{
     margin-top: 120px;
 }
 
-.intoduction-section{
 
-}
 
 .vec-before{
     position: absolute;
@@ -1204,9 +1192,7 @@ h3.discover{
 h5{
     font-size: small;
 }
-.testimonial{
-    
-}
+
 h4.biz-dev{
     color: black;
     font-size: 24px;
@@ -1268,9 +1254,7 @@ a.in-touch{
    
    
 }
-.dev-details{
-   
-}
+
 .impo-date{
     font-size: 1rem;
     font-weight: 500;
@@ -1330,10 +1314,7 @@ button.accordion-button{
         box-shadow: none;
         box-shadow: 2px 5px 20px rgb(222, 222, 225);
     }
-    .accordion-header{
-        
-    }
-  
+   
     button.accordion-button:focus{
        box-shadow:0 0 0 ;
        outline: 0;
@@ -1362,13 +1343,6 @@ button.accordion-button{
          margin-bottom: 20px;
     }
 /*end of accordion*/
-
-.interested-in-scaling{
-  
-
-
-
-}
 footer{
     background: #D4D4D847;
     padding-left: 4vw;
@@ -1429,9 +1403,7 @@ footer2{
     color: rgb(141, 140, 140);
     font-size: small;
 }
-.subscribe form{
-  
-}
+
 .subscription-button{
     color: white;
     width: 45%;
@@ -2486,9 +2458,7 @@ select {
         margin-right: 10vw;
     }
     
-    section.C{
-        
-    }
+   
     section.D{
         margin-left:10vw ;
         margin-right:10vw;
