@@ -68,13 +68,7 @@ header.two{
     margin-bottom: 10px;
     border-radius: 10px;
 }
-.btn-event:hover{
-    
-    background-color: #38364e;
-    color: white;
-    transition: 0.4s ease-out;
-    
-}
+
 .green-head{
     color: #599651;
     font-weight: 800;
@@ -170,8 +164,20 @@ section.A{
 .img-box{
     position:absolute;
     top:-7% ;
-    left: 77%;
+    left: 82%;
 }
+[aria-controls="offcanvasExample"] {
+    /* Your CSS styles for the element go here */
+    /* For example, to remove the focus outline */
+    outline: none;
+  }
+  [data-bs-toggle="offcanvas"] {
+    /* Remove the outline or apply any other styling */
+    outline: none;
+  }
+  .btn-close{
+    outline: none;
+  }
 /* .space{
    position: relative;
   
@@ -1584,8 +1590,15 @@ select {
 
 
 
- 
-
+ @media screen and (min-width: 981px) {
+ .btn-event:hover{
+    
+    background-color: #38364e;
+    color: white;
+    transition: 0.4s ease-out;
+    
+}
+ }
 @media screen and (max-width: 981px) {
     .meeting04{
         min-height: 339.8365478515625px;
@@ -2089,6 +2102,7 @@ select {
 
 
 @media screen and (max-width: 981px) {
+    
     .meeting04{
         min-height: 339.8365478515625px;
         min-width: 220px;
